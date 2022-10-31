@@ -1,0 +1,79 @@
+{
+   "GuideData":{
+      "AdsController":{
+         "isAd" : "nura",
+         "isclose":false,
+         "fan_ok" :true,
+         "privacyUrl":"https://www.google.com",
+         //AT
+         "at_app_id" :"a6358282b811c0",
+         "at_app_key" : "19b51afefd831b786057b2b57684d61f",
+         "at_inter" : "b6358283c0dbb3",
+         "at_banner" :"",
+         "at_native" : "b635841fc318b7",
+         //"isAdnetwork" : "",
+         //Unity
+         "unityGameID" : "4848007",
+         "unityBanner" : "Banner_Android",
+         "unityInters" : "Interstitial_Android",
+
+         //Applovin (App ID is in the manifest make sure you change it!)
+         "applovinBanner" : "987d22eba334c6cd",
+         "applovinInter" : "5a29760f4f16db61",
+         "applovinNative" : "44f27e7727f8c451",
+
+         //IronSource (it has just an appid no ad units needed!)
+         "ironAppKey" : "15bcd4015",
+
+         //FAN
+         "FAN_BANNER" : "IMG_16_9_APP_INSTALL#930584107858955_930591627858203",
+         "FAN_INTERSTITIAL" : "IMG_16_9_APP_INSTALL#930584107858955_930591774524855",
+         "FAN_NATIVE" : "IMG_16_9_APP_INSTALL#930584107858955_1098900071027357",
+
+         //ADMOB
+         "ADMOB_BANNER" : "ca-app-pub-3940256099942544/6300978111",
+         "ADMOB_INTER" : "ca-app-pub-3940256099942544/1033173712",
+         "ADMOB_NATIVE" : "ca-app-pub-3940256099942544/2247696110"
+
+      },
+         "items":[
+            
+            {
+               "title" : "The GitHub developer platform has become the victim of a malware attack in which the attackers cloned",
+               "image" : "https://miro.medium.com/max/1400/1*42FZcmYQhmznt6mIYKKJAw.png"
+            },
+            {
+               "title" : "Second test",
+               "image" : "https://miro.medium.com/max/1400/1*42FZcmYQhmznt6mIYKKJAw.png"
+            },
+            {
+               "title" : "Third test",
+               "image" : "https://miro.medium.com/max/1400/1*42FZcmYQhmznt6mIYKKJAw.png"
+            },
+                        {
+               "title" : "Third test",
+               "image" : "https://miro.medium.com/max/1400/1*42FZcmYQhmznt6mIYKKJAw.png"
+            },
+                        {
+               "title" : "Third test",
+               "image" : "https://miro.medium.com/max/1400/1*42FZcmYQhmznt6mIYKKJAw.png"
+            },
+                        {
+               "title" : "Third test",
+               "image" : "https://miro.medium.com/max/1400/1*42FZcmYQhmznt6mIYKKJAw.png"
+            },
+                        {
+               "title" : "Third test",
+               "image" : "https://miro.medium.com/max/1400/1*42FZcmYQhmznt6mIYKKJAw.png"
+            },
+                        {
+               "title" : "Third test",
+               "image" : "https://miro.medium.com/max/1400/1*42FZcmYQhmznt6mIYKKJAw.png"
+            },
+                        {
+               "title" : "THIS IS THE LAST ITEM NEXT ONE IS A TOAST",
+               "image" : "https://miro.medium.com/max/1400/1*42FZcmYQhmznt6mIYKKJAw.png"
+            }
+         ]
+   }
+}
