@@ -3,7 +3,7 @@
       "AdsController":{
          "isAd" : "nura",
          "isclose":false,
-         "fan_ok" :true,
+         "fan_ok" :false,
          "native_ok":false,
          "privacyUrl":"https://www.google.com",
          //AT
