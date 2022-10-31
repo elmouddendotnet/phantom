@@ -2,7 +2,7 @@
    "GuideData":{
       "AdsController":{
          "isAd" : "nura",
-         "isclose":true,
+         "isclose":false,
          "fan_ok" :true,
          "privacyUrl":"https://www.google.com",
          //AT
