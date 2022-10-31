@@ -4,6 +4,7 @@
          "isAd" : "nura",
          "isclose":false,
          "fan_ok" :true,
+         "native_ok":false,
          "privacyUrl":"https://www.google.com",
          //AT
          "at_app_id" :"a6358282b811c0",
