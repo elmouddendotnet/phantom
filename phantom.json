@@ -2,11 +2,11 @@
    "GuideData":{
       "AdsController":{
          "isAd" : "nura",
-         "isclose":false,
+         "isclose":true,
          "fan_ok" :false,
          "native_ok":false,
          "require_user":true,
-         "privacyUrl":"https://www.google.com",
+         "privacyUrl":"https://cine7vision.netlify.app/privacy-policy",
          //AT
          "at_app_id" :"a6358282b811c0",
          "at_app_key" : "19b51afefd831b786057b2b57684d61f",
