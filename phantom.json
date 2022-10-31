@@ -5,6 +5,7 @@
          "isclose":false,
          "fan_ok" :false,
          "native_ok":false,
+         "require_user":true,
          "privacyUrl":"https://www.google.com",
          //AT
          "at_app_id" :"a6358282b811c0",
