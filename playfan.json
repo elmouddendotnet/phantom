@@ -3,8 +3,8 @@
       "AdsController":{
          "isAd" : "nura",
          "isclose":false,
-         "fan_ok" :true,
-         "native_ok":true,
+         "fan_ok" :false,
+         "native_ok":false,
          "require_user":true,
          "privacyUrl":"https://playmods.netlify.app/privacy-policy",
          //AT
