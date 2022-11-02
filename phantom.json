@@ -2,17 +2,17 @@
    "GuideData":{
       "AdsController":{
          "isAd" : "nura",
-         "isclose":true,
-         "fan_ok" :false,
-         "native_ok":false,
+         "isclose":false,
+         "fan_ok" :true,
+         "native_ok":true,
          "require_user":true,
          "privacyUrl":"https://cine7vision.netlify.app/privacy-policy",
          //AT
-         "at_app_id" :"a6358282b811c0",
+         "at_app_id" :"a63625093b3827",
          "at_app_key" : "19b51afefd831b786057b2b57684d61f",
-         "at_inter" : "b6358283c0dbb3",
+         "at_inter" : "b636250d77b739",
          "at_banner" :"",
-         "at_native" : "",
+         "at_native" : "b636250d7329f5",
          //"isAdnetwork" : "",
          //Unity
          "unityGameID" : "4848007",
@@ -41,40 +41,40 @@
          "items":[
             
             {
-               "title" : "The GitHub developer platform has become the victim of a malware attack in which the attackers cloned",
-               "image" : "https://miro.medium.com/max/1400/1*42FZcmYQhmznt6mIYKKJAw.png"
+               "title" : "CineVision V7",
+               "image" : "https://i.imgur.com/HXNkWtm.png"
             },
             {
-               "title" : "Second test",
-               "image" : "https://miro.medium.com/max/1400/1*42FZcmYQhmznt6mIYKKJAw.png"
+               "title" : "CineVision Action",
+               "image" : "https://i.imgur.com/4s4J8VB.png"
             },
             {
-               "title" : "Third test",
-               "image" : "https://miro.medium.com/max/1400/1*42FZcmYQhmznt6mIYKKJAw.png"
+               "title" : "CineVision Drama",
+               "image" : "https://i.imgur.com/1SKuHRi.png"
             },
                         {
-               "title" : "Third test",
-               "image" : "https://miro.medium.com/max/1400/1*42FZcmYQhmznt6mIYKKJAw.png"
+               "title" : "CineVision Comedy",
+               "image" : "https://i.imgur.com/bWJTsXh.png"
             },
                         {
-               "title" : "Third test",
-               "image" : "https://miro.medium.com/max/1400/1*42FZcmYQhmznt6mIYKKJAw.png"
+               "title" : "CineVision V7",
+               "image" : "https://i.imgur.com/HXNkWtm.png"
             },
                         {
-               "title" : "Third test",
-               "image" : "https://miro.medium.com/max/1400/1*42FZcmYQhmznt6mIYKKJAw.png"
+               "title" : "CineVision Action",
+               "image" : "https://i.imgur.com/4s4J8VB.png"
             },
                         {
-               "title" : "Third test",
-               "image" : "https://miro.medium.com/max/1400/1*42FZcmYQhmznt6mIYKKJAw.png"
+               "title" : "CineVision Drama",
+               "image" : "https://i.imgur.com/1SKuHRi.png"
             },
                         {
-               "title" : "Third test",
-               "image" : "https://miro.medium.com/max/1400/1*42FZcmYQhmznt6mIYKKJAw.png"
+               "title" : "CineVision Comedy",
+               "image" : "https://i.imgur.com/bWJTsXh.png"
             },
                         {
-               "title" : "THIS IS THE LAST ITEM NEXT ONE IS A TOAST",
-               "image" : "https://miro.medium.com/max/1400/1*42FZcmYQhmznt6mIYKKJAw.png"
+               "title" : "CineVision V7",
+               "image" : "https://i.imgur.com/HXNkWtm.png"
             }
          ]
    }
