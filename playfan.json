@@ -4,6 +4,7 @@
          "isAd" : "nura",
          "isclose":true,
          "isnext" : true,
+         "textstart":"EXPLORE",
          "fan_ok" :true,
          "native_ok":true,
          "require_user":true,
