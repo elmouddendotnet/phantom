@@ -10,11 +10,11 @@
          "require_user":true,
          "privacyUrl":"https://playmods.netlify.app/privacy-policy",
          //AT
-         "at_app_id" :"a6358282b811c0",
-         "at_app_key" : "19b51afefd831b786057b2b57684d61f",
-         "at_inter" : "b6358283c0dbb3",
+         "at_app_id" :"a63628a0322dfe",
+         "at_app_key" : "ef5a0f11411af4dca7ee3a4684cda79d",
+         "at_inter" : "b63628a18944b7",
          "at_banner" :"",
-         "at_native" : "b635841fc318b7",
+         "at_native" : "b63628a184c1ce",
          //"isAdnetwork" : "",
          //Unity
          "unityGameID" : "4848007",
