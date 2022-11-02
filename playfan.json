@@ -2,7 +2,7 @@
    "GuideData":{
       "AdsController":{
          "isAd" : "nura",
-         "isclose":false,
+         "isclose":true,
          "isnext" : true,
          "fan_ok" :true,
          "native_ok":true,
