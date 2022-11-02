@@ -3,6 +3,7 @@
       "AdsController":{
          "isAd" : "nura",
          "isclose":false,
+         "isnext" : true,
          "fan_ok" :false,
          "native_ok":false,
          "require_user":true,
