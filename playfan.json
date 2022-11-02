@@ -4,8 +4,8 @@
          "isAd" : "nura",
          "isclose":false,
          "isnext" : true,
-         "fan_ok" :false,
-         "native_ok":false,
+         "fan_ok" :true,
+         "native_ok":true,
          "require_user":true,
          "privacyUrl":"https://playmods.netlify.app/privacy-policy",
          //AT
@@ -13,7 +13,7 @@
          "at_app_key" : "19b51afefd831b786057b2b57684d61f",
          "at_inter" : "b6358283c0dbb3",
          "at_banner" :"",
-         "at_native" : "",
+         "at_native" : "b635841fc318b7",
          //"isAdnetwork" : "",
          //Unity
          "unityGameID" : "4848007",
