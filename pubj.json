@@ -1,0 +1,85 @@
+{
+   "GuideData":{
+      "AdsController":{
+         "isAd" : "nura",
+         "isclose":false,
+         "isnext" : true,
+         "textstart":"PLAY",
+         "fan_ok" :true,
+         "native_ok":true,
+         "require_user":true,
+         "privacyUrl":"https://playmods.netlify.app/privacy-policy",
+         //AT
+         "at_app_id" :"a6368ed0d13579",
+         "at_app_key" : "19b51afefd831b786057b2b57684d61f",
+         "at_inter" : "b6368ed20e6dc8",
+         "at_banner" :"",
+         "at_native" : "b6368ed2092ef9",
+         //"isAdnetwork" : "",
+         //Unity
+         "unityGameID" : "4848007",
+         "unityBanner" : "Banner_Android",
+         "unityInters" : "Interstitial_Android",
+
+         //Applovin (App ID is in the manifest make sure you change it!)
+         "applovinBanner" : "987d22eba334c6cd",
+         "applovinInter" : "5a29760f4f16db61",
+         "applovinNative" : "44f27e7727f8c451",
+
+         //IronSource (it has just an appid no ad units needed!)
+         "ironAppKey" : "15bcd4015",
+
+         //FAN
+         "FAN_BANNER" : "IMG_16_9_APP_INSTALL#930584107858955_930591627858203",
+         "FAN_INTERSTITIAL" : "IMG_16_9_APP_INSTALL#930584107858955_930591774524855",
+         "FAN_NATIVE" : "IMG_16_9_APP_INSTALL#930584107858955_1098900071027357",
+
+         //ADMOB
+         "ADMOB_BANNER" : "ca-app-pub-3940256099942544/6300978111",
+         "ADMOB_INTER" : "ca-app-pub-3940256099942544/1033173712",
+         "ADMOB_NATIVE" : "ca-app-pub-3940256099942544/2247696110"
+
+      },
+      
+       "items":[
+            
+            {
+               "title" : "CineVision V7",
+               "image" : "https://i.imgur.com/HXNkWtm.png"
+            },
+            {
+               "title" : "CineVision Action",
+               "image" : "https://i.imgur.com/4s4J8VB.png"
+            },
+            {
+               "title" : "CineVision Drama",
+               "image" : "https://i.imgur.com/1SKuHRi.png"
+            },
+                        {
+               "title" : "CineVision Comedy",
+               "image" : "https://i.imgur.com/bWJTsXh.png"
+            },
+                        {
+               "title" : "CineVision V7",
+               "image" : "https://i.imgur.com/HXNkWtm.png"
+            },
+                        {
+               "title" : "CineVision Action",
+               "image" : "https://i.imgur.com/4s4J8VB.png"
+            },
+                        {
+               "title" : "CineVision Drama",
+               "image" : "https://i.imgur.com/1SKuHRi.png"
+            },
+                        {
+               "title" : "CineVision Comedy",
+               "image" : "https://i.imgur.com/bWJTsXh.png"
+            },
+                        {
+               "title" : "CineVision V7",
+               "image" : "https://i.imgur.com/HXNkWtm.png"
+            }
+         ]
+
+   }
+}
