@@ -1,1738 +1,1668 @@
 {
-   "code":200,
-   "data":{
-      "id":1,
-      "created_at":"2021-11-29T22:20:53.000000Z",
-      "updated_at":"2022-02-07T11:58:03.000000Z",
-      "ads_enabled":"true",
-      "app_id":"a636d28b38032d",
-      "app_key":"19b51afefd831b786057b2b57684d61f",
-      "inter_id":"b636d28bf7603f",
-      "native_id":"b636d28d039bf9",
-      "banner_id":"b636d28d9593f5",
-      "is_show_description":"false",
-      "active_app":1,
-      "is_icon_enabled":"true",
-      "screens":[
-         {
-            "id":1,
-            "created_at":"2021-11-29T22:21:00.000000Z",
-            "updated_at":"2021-11-29T22:22:20.000000Z",
-            "ads_provider":"admob",
-            "background":"#FFFFFF",
-            "background_type":"color",
-            "app_config_id":1,
-            "name":"splash_screen",
-            "views":[
-               
-            ],
-            "advertisements":[
-               {
-                  "id":34,
-                  "created_at":"2021-11-30T18:08:58.000000Z",
-                  "updated_at":"2022-02-08T00:34:40.000000Z",
-                  "is_enabled":"false",
-                  "provider":"admob",
-                  "ad_id":"ca-app-pub-3940256099942544/3419835294",
-                  "type":"interstitial",
-                  "screen_id":1,
-                  "name":"open_ad"
-               }
+  "code": 200,
+  "data": {
+    "id": 1,
+    "created_at": "2021-11-29T22:20:53.000000Z",
+    "updated_at": "2022-02-07T11:58:03.000000Z",
+    "ads_enabled": "true",
+    "app_id": "a636d28b38032d",
+    "app_key": "19b51afefd831b786057b2b57684d61f",
+    "inter_id": "b636d28bf7603f",
+    "native_id": "b636d28d039bf9",
+    "banner_id": "b636d28d9593f5",
+    "is_show_description": "false",
+    "active_app": 1,
+    "is_icon_enabled": "true",
+    "screens": [
+      {
+        "id": 1,
+        "created_at": "2021-11-29T22:21:00.000000Z",
+        "updated_at": "2021-11-29T22:22:20.000000Z",
+        "ads_provider": "mynetwork",
+        "background": "#FFFFFF",
+        "background_type": "color",
+        "app_config_id": 1,
+        "name": "splash_screen",
+        "views": [],
+        "advertisements": [
+          {
+            "id": 34,
+            "created_at": "2021-11-30T18:08:58.000000Z",
+            "updated_at": "2022-02-08T00:34:40.000000Z",
+            "is_enabled": "false",
+            "provider": "mynetwork",
+            "ad_id": "ca-app-pub-3940256099942544/3419835294",
+            "type": "interstitial",
+            "screen_id": 1,
+            "name": "open_ad"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "created_at": "2021-11-29T22:21:30.000000Z",
+        "updated_at": "2021-11-29T22:22:39.000000Z",
+        "ads_provider": "mynetwork",
+        "background": "#FFFFFF",
+        "background_type": "color",
+        "app_config_id": 1,
+        "name": "login_screen",
+        "views": [],
+        "advertisements": [
+          {
+            "id": 2,
+            "created_at": "2021-11-29T22:23:58.000000Z",
+            "updated_at": "2022-02-08T00:34:45.000000Z",
+            "is_enabled": "false",
+            "provider": "mynetwork",
+            "ad_id": "ca-app-pub-3940256099942544/2247696110",
+            "type": "native",
+            "screen_id": 2,
+            "name": "native_1"
+          },
+          {
+            "id": 3,
+            "created_at": "2021-11-29T22:26:01.000000Z",
+            "updated_at": "2022-02-01T11:47:07.000000Z",
+            "is_enabled": "false",
+            "provider": "mynetwork",
+            "ad_id": "ca-app-pub-3940256099942544/6300978111",
+            "type": "banner",
+            "screen_id": 2,
+            "name": "banner_1"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "created_at": "2021-11-29T22:29:04.000000Z",
+        "updated_at": "2021-11-29T22:35:32.000000Z",
+        "ads_provider": "mynetwork",
+        "background": "#FFFFFF",
+        "background_type": "color",
+        "app_config_id": 1,
+        "name": "start_screen",
+        "views": [],
+        "advertisements": [
+          {
+            "id": 4,
+            "created_at": "2021-11-29T22:35:42.000000Z",
+            "updated_at": "2022-02-07T12:42:36.000000Z",
+            "is_enabled": "false",
+            "provider": "mynetwork",
+            "ad_id": "ca-app-pub-3940256099942544/2247696110",
+            "type": "native",
+            "screen_id": 3,
+            "name": "native_1"
+          },
+          {
+            "id": 5,
+            "created_at": "2021-11-29T22:35:50.000000Z",
+            "updated_at": "2022-02-07T12:42:59.000000Z",
+            "is_enabled": "false",
+            "provider": "mynetwork",
+            "ad_id": "ca-app-pub-3940256099942544/6300978111",
+            "type": "banner",
+            "screen_id": 3,
+            "name": "banner_1"
+          },
+          {
+            "id": 6,
+            "created_at": "2021-11-30T10:08:45.000000Z",
+            "updated_at": "2022-02-07T12:43:14.000000Z",
+            "is_enabled": "false",
+            "provider": "mynetwork",
+            "ad_id": "ca-app-pub-3940256099942****544/1033173712",
+            "type": "interstitial",
+            "screen_id": 3,
+            "name": "interstitial_1"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "created_at": "2021-11-30T10:21:18.000000Z",
+        "updated_at": "2021-11-30T10:21:31.000000Z",
+        "ads_provider": "mynetwork",
+        "background": "#FFFFFF",
+        "background_type": "color",
+        "app_config_id": 1,
+        "name": "quick_tour_screen",
+        "views": [],
+        "advertisements": [
+          {
+            "id": 7,
+            "created_at": "2021-11-30T10:44:23.000000Z",
+            "updated_at": "2022-02-07T12:46:10.000000Z",
+            "is_enabled": "false",
+            "provider": "mynetwork",
+            "ad_id": "ca-app-pub-3940256099942544/2247696110",
+            "type": "native",
+            "screen_id": 4,
+            "name": "native_1"
+          },
+          {
+            "id": 7,
+            "created_at": "2021-11-30T10:44:23.000000Z",
+            "updated_at": "2022-02-07T12:46:10.000000Z",
+            "is_enabled": "false",
+            "provider": "mynetwork",
+            "ad_id": "ca-app-pub-3940256099942544/2247696110",
+            "type": "native",
+            "screen_id": 4,
+            "name": "native_2"
+          },
+          {
+            "id": 7,
+            "created_at": "2021-11-30T10:44:23.000000Z",
+            "updated_at": "2022-02-07T12:46:10.000000Z",
+            "is_enabled": "true",
+            "provider": "mynetwork",
+            "ad_id": "ca-app-pub-3940256099942544/2247696110",
+            "type": "native",
+            "screen_id": 4,
+            "name": "native_1"
+          },
+          {
+            "id": 7,
+            "created_at": "2021-11-30T10:44:23.000000Z",
+            "updated_at": "2022-02-07T12:46:10.000000Z",
+            "is_enabled": "true",
+            "provider": "mynetwork",
+            "ad_id": "ca-app-pub-3940256099942544/2247696110",
+            "type": "native",
+            "screen_id": 4,
+            "name": "native_2"
+          },
+          {
+            "id": 8,
+            "created_at": "2021-11-30T10:44:55.000000Z",
+            "updated_at": "2022-02-07T12:46:25.000000Z",
+            "is_enabled": "true",
+            "provider": "mynetwork",
+            "ad_id": "ca-app-pub-3940256099942544/1033173712",
+            "type": "interstitial",
+            "screen_id": 4,
+            "name": "interstitial_1"
+          },
+          {
+            "id": 6,
+            "created_at": "2021-11-30T10:08:45.000000Z",
+            "updated_at": "2022-02-07T12:43:14.000000Z",
+            "is_enabled": "true",
+            "provider": "mynetwork",
+            "ad_id": "ca-app-pub-3940256099942544/1033173712",
+            "type": "interstitial",
+            "screen_id": 3,
+            "name": "interstitial_2"
+          },
+          {
+            "id": 5565,
+            "created_at": "2021-11-30T10:08:45.000000Z",
+            "updated_at": "2022-02-07T12:43:14.000000Z",
+            "is_enabled": "true",
+            "provider": "mynetwork",
+            "ad_id": "ca-app-pub-3940256099942544/1033173712",
+            "type": "interstitial",
+            "screen_id": 3,
+            "name": "interstitial_1"
+          },
+          {
+            "id": 5565,
+            "created_at": "2021-11-30T10:08:45.000000Z",
+            "updated_at": "2022-02-07T12:43:14.000000Z",
+            "is_enabled": "true",
+            "provider": "mynetwork",
+            "ad_id": "ca-app-pub-3940256099942544/1033173712",
+            "type": "interstitial",
+            "screen_id": 3,
+            "name": "interstitial_2"
+          },
+          {
+            "id": 5565,
+            "created_at": "2021-11-30T10:08:45.000000Z",
+            "updated_at": "2022-02-07T12:43:14.000000Z",
+            "is_enabled": "true",
+            "provider": "mynetwork",
+            "ad_id": "interstitial_1",
+            "type": "interstitial",
+            "screen_id": 3,
+            "name": "interstitial_1"
+          },
+          {
+            "id": 6697,
+            "created_at": "2021-11-30T10:44:23.000000Z",
+            "updated_at": "2022-02-07T12:46:10.000000Z",
+            "is_enabled": "true",
+            "provider": "mynetwork",
+            "ad_id": "native_1",
+            "type": "native",
+            "screen_id": 4,
+            "name": "native_1"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "created_at": "2021-11-30T11:05:00.000000Z",
+        "updated_at": "2021-11-30T11:05:08.000000Z",
+        "ads_provider": "mynetwork",
+        "background": "#FFFFFF",
+        "background_type": "color",
+        "app_config_id": 1,
+        "name": "step_1_screen",
+        "views": [
+          {
+            "id": 1,
+            "created_at": "2021-11-30T11:24:04.000000Z",
+            "updated_at": "2022-02-11T13:50:55.000000Z",
+            "type": "textView",
+            "background_type": "color",
+            "background": "#FFFFFF",
+            "text": "Play the lottery from home! Get lottery tickets delivered right to your phone with Jackpocket. Play now in NY, NJ, TX, OH, CO, MN, OR, AR, NM, NH, MT and Washington, D.C.",
+            "screen_id": 5,
+            "name": "body_1",
+            "views_data": []
+          }
+        ],
+        "advertisements": [
+          {
+            "id": 9,
+            "created_at": "2021-11-30T11:08:47.000000Z",
+            "updated_at": "2022-02-07T13:07:30.000000Z",
+            "is_enabled": "false",
+            "provider": "mynetwork",
+            "ad_id": "ca-app-pub-3940256099942544/2247696110",
+            "type": "native",
+            "screen_id": 5,
+            "name": "native_1"
+          },
+          {
+            "id": 9,
+            "created_at": "2021-11-30T11:08:47.000000Z",
+            "updated_at": "2022-02-07T13:07:30.000000Z",
+            "is_enabled": "false",
+            "provider": "mynetwork",
+            "ad_id": "ca-app-pub-3940256099942544/2247696110",
+            "type": "native",
+            "screen_id": 5,
+            "name": "native_2"
+          },
+          {
+            "id": 9,
+            "created_at": "2021-11-30T11:08:47.000000Z",
+            "updated_at": "2022-02-07T13:07:30.000000Z",
+            "is_enabled": "true",
+            "provider": "mynetwork",
+            "ad_id": "66666666666666",
+            "type": "native",
+            "screen_id": 5,
+            "name": "native_1"
+          },
+          {
+            "id": 9,
+            "created_at": "2021-11-30T11:08:47.000000Z",
+            "updated_at": "2022-02-07T13:07:30.000000Z",
+            "is_enabled": "true",
+            "provider": "mynetwork",
+            "ad_id": "ca-app-pub-3940256099942544/2247696110",
+            "type": "native",
+            "screen_id": 5,
+            "name": "native_2"
+          },
+          {
+            "id": 10,
+            "created_at": "2021-11-30T11:08:47.000000Z",
+            "updated_at": "2022-02-11T15:28:55.000000Z",
+            "is_enabled": "true",
+            "provider": "mynetwork",
+            "ad_id": "ca-app-pub-3940256099942544/1033173712",
+            "type": "interstitial",
+            "screen_id": 5,
+            "name": "interstitial_1"
+          },
+          {
+            "id": 10,
+            "created_at": "2021-11-30T11:08:47.000000Z",
+            "updated_at": "2022-02-11T15:28:55.000000Z",
+            "is_enabled": "true",
+            "provider": "mynetwork",
+            "ad_id": "ca-app-pub-3940256099942544/1033173712",
+            "type": "interstitial",
+            "screen_id": 5,
+            "name": "interstitial_2"
+          },
+          {
+            "id": 10,
+            "created_at": "2021-11-30T11:08:47.000000Z",
+            "updated_at": "2022-02-11T15:28:55.000000Z",
+            "is_enabled": "true",
+            "provider": "mynetwork",
+            "ad_id": "ca-app-pub-3940256099942544/1033173712",
+            "type": "interstitial",
+            "screen_id": 5,
+            "name": "interstitial_1"
+          },
+          {
+            "id": 10,
+            "created_at": "2021-11-30T11:08:47.000000Z",
+            "updated_at": "2022-02-11T15:28:55.000000Z",
+            "is_enabled": "true",
+            "provider": "mynetwork",
+            "ad_id": "ca-app-pub-3940256099942544/1033173712",
+            "type": "interstitial",
+            "screen_id": 5,
+            "name": "interstitial_2"
+          },
+          {
+            "id": 11,
+            "created_at": "2021-11-30T11:08:50.000000Z",
+            "updated_at": "2022-02-11T15:29:03.000000Z",
+            "is_enabled": "true",
+            "provider": "mynetwork",
+            "ad_id": "ca-app-pub-3940256099942544/6300978111",
+            "type": "banner",
+            "screen_id": 5,
+            "name": "banner_1"
+          },
+          {
+            "id": 11,
+            "created_at": "2021-11-30T11:08:50.000000Z",
+            "updated_at": "2022-02-11T15:29:03.000000Z",
+            "is_enabled": "true",
+            "provider": "mynetwork",
+            "ad_id": "banner_1",
+            "type": "banner",
+            "screen_id": 5,
+            "name": "banner_1"
+          },
+          {
+            "id": 5565,
+            "created_at": "2021-11-30T10:08:45.000000Z",
+            "updated_at": "2022-02-07T12:43:14.000000Z",
+            "is_enabled": "true",
+            "provider": "mynetwork",
+            "ad_id": "interstitial_1",
+            "type": "interstitial",
+            "screen_id": 3,
+            "name": "interstitial_1"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "created_at": "2021-11-30T11:05:00.000000Z",
+        "updated_at": "2021-11-30T11:05:08.000000Z",
+        "ads_provider": "mynetwork",
+        "background": "#FFFFFF",
+        "background_type": "color",
+        "app_config_id": 1,
+        "name": "step_2_screen",
+        "views": [
+          {
+            "id": 1,
+            "created_at": "2021-11-30T11:24:04.000000Z",
+            "updated_at": "2022-02-11T13:50:55.000000Z",
+            "type": "textView",
+            "background_type": "color",
+            "background": "#FFFFFF",
+            "text": "If you love playing lottery games, you’ve gotta get Jackpocket. Our lottery app is the quick, easy, and secure way to order lotto tickets for Powerball",
+            "screen_id": 5,
+            "name": "body_2",
+            "views_data": []
+          }
+        ],
+        "advertisements": [
+          {
+            "id": 9,
+            "created_at": "2021-11-30T11:08:47.000000Z",
+            "updated_at": "2022-02-07T13:07:30.000000Z",
+            "is_enabled": "false",
+            "provider": "mynetwork",
+            "ad_id": "ca-app-pub-3940256099942544/2247696110",
+            "type": "native",
+            "screen_id": 5,
+            "name": "native_1"
+          },
+          {
+            "id": 9,
+            "created_at": "2021-11-30T11:08:47.000000Z",
+            "updated_at": "2022-02-07T13:07:30.000000Z",
+            "is_enabled": "false",
+            "provider": "mynetwork",
+            "ad_id": "ca-app-pub-3940256099942544/2247696110",
+            "type": "native",
+            "screen_id": 5,
+            "name": "native_2"
+          },
+          {
+            "id": 9,
+            "created_at": "2021-11-30T11:08:47.000000Z",
+            "updated_at": "2022-02-07T13:07:30.000000Z",
+            "is_enabled": "true",
+            "provider": "mynetwork",
+            "ad_id": "66666666666666",
+            "type": "native",
+            "screen_id": 5,
+            "name": "native_1"
+          },
+          {
+            "id": 9,
+            "created_at": "2021-11-30T11:08:47.000000Z",
+            "updated_at": "2022-02-07T13:07:30.000000Z",
+            "is_enabled": "true",
+            "provider": "mynetwork",
+            "ad_id": "ca-app-pub-3940256099942544/2247696110",
+            "type": "native",
+            "screen_id": 5,
+            "name": "native_2"
+          },
+          {
+            "id": 10,
+            "created_at": "2021-11-30T11:08:47.000000Z",
+            "updated_at": "2022-02-11T15:28:55.000000Z",
+            "is_enabled": "true",
+            "provider": "mynetwork",
+            "ad_id": "ca-app-pub-3940256099942544/1033173712",
+            "type": "interstitial",
+            "screen_id": 5,
+            "name": "interstitial_1"
+          },
+          {
+            "id": 10,
+            "created_at": "2021-11-30T11:08:47.000000Z",
+            "updated_at": "2022-02-11T15:28:55.000000Z",
+            "is_enabled": "true",
+            "provider": "mynetwork",
+            "ad_id": "ca-app-pub-3940256099942544/1033173712",
+            "type": "interstitial",
+            "screen_id": 5,
+            "name": "interstitial_2"
+          },
+          {
+            "id": 10,
+            "created_at": "2021-11-30T11:08:47.000000Z",
+            "updated_at": "2022-02-11T15:28:55.000000Z",
+            "is_enabled": "true",
+            "provider": "mynetwork",
+            "ad_id": "ca-app-pub-3940256099942544/1033173712",
+            "type": "interstitial",
+            "screen_id": 5,
+            "name": "interstitial_1"
+          },
+          {
+            "id": 10,
+            "created_at": "2021-11-30T11:08:47.000000Z",
+            "updated_at": "2022-02-11T15:28:55.000000Z",
+            "is_enabled": "true",
+            "provider": "mynetwork",
+            "ad_id": "ca-app-pub-3940256099942544/1033173712",
+            "type": "interstitial",
+            "screen_id": 5,
+            "name": "interstitial_2"
+          },
+          {
+            "id": 11,
+            "created_at": "2021-11-30T11:08:50.000000Z",
+            "updated_at": "2022-02-11T15:29:03.000000Z",
+            "is_enabled": "true",
+            "provider": "mynetwork",
+            "ad_id": "ca-app-pub-3940256099942544/6300978111",
+            "type": "banner",
+            "screen_id": 5,
+            "name": "banner_1"
+          },
+          {
+            "id": 11,
+            "created_at": "2021-11-30T11:08:50.000000Z",
+            "updated_at": "2022-02-11T15:29:03.000000Z",
+            "is_enabled": "true",
+            "provider": "mynetwork",
+            "ad_id": "banner_1",
+            "type": "banner",
+            "screen_id": 5,
+            "name": "banner_1"
+          },
+          {
+            "id": 5565,
+            "created_at": "2021-11-30T10:08:45.000000Z",
+            "updated_at": "2022-02-07T12:43:14.000000Z",
+            "is_enabled": "true",
+            "provider": "mynetwork",
+            "ad_id": "interstitial_1",
+            "type": "interstitial",
+            "screen_id": 3,
+            "name": "interstitial_1"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "created_at": "2021-11-30T11:05:00.000000Z",
+        "updated_at": "2021-11-30T11:05:08.000000Z",
+        "ads_provider": "mynetwork",
+        "background": "#FFFFFF",
+        "background_type": "color",
+        "app_config_id": 1,
+        "name": "step_3_screen",
+        "views": [
+          {
+            "id": 1,
+            "created_at": "2021-11-30T11:24:04.000000Z",
+            "updated_at": "2022-02-11T13:50:55.000000Z",
+            "type": "textView",
+            "background_type": "color",
+            "background": "#FFFFFF",
+            "text": "Mega Millions, Pick 3 and more from state-licensed retailers. Jackpocket players have won over $150 million in lottery prizes to date!",
+            "screen_id": 5,
+            "name": "body_3",
+            "views_data": []
+          }
+        ],
+        "advertisements": [
+          {
+            "id": 9,
+            "created_at": "2021-11-30T11:08:47.000000Z",
+            "updated_at": "2022-02-07T13:07:30.000000Z",
+            "is_enabled": "false",
+            "provider": "mynetwork",
+            "ad_id": "ca-app-pub-3940256099942544/2247696110",
+            "type": "native",
+            "screen_id": 5,
+            "name": "native_1"
+          },
+          {
+            "id": 9,
+            "created_at": "2021-11-30T11:08:47.000000Z",
+            "updated_at": "2022-02-07T13:07:30.000000Z",
+            "is_enabled": "false",
+            "provider": "mynetwork",
+            "ad_id": "ca-app-pub-3940256099942544/2247696110",
+            "type": "native",
+            "screen_id": 5,
+            "name": "native_2"
+          },
+          {
+            "id": 9,
+            "created_at": "2021-11-30T11:08:47.000000Z",
+            "updated_at": "2022-02-07T13:07:30.000000Z",
+            "is_enabled": "true",
+            "provider": "mynetwork",
+            "ad_id": "66666666666666",
+            "type": "native",
+            "screen_id": 5,
+            "name": "native_1"
+          },
+          {
+            "id": 9,
+            "created_at": "2021-11-30T11:08:47.000000Z",
+            "updated_at": "2022-02-07T13:07:30.000000Z",
+            "is_enabled": "true",
+            "provider": "mynetwork",
+            "ad_id": "ca-app-pub-3940256099942544/2247696110",
+            "type": "native",
+            "screen_id": 5,
+            "name": "native_2"
+          },
+          {
+            "id": 10,
+            "created_at": "2021-11-30T11:08:47.000000Z",
+            "updated_at": "2022-02-11T15:28:55.000000Z",
+            "is_enabled": "true",
+            "provider": "mynetwork",
+            "ad_id": "ca-app-pub-3940256099942544/1033173712",
+            "type": "interstitial",
+            "screen_id": 5,
+            "name": "interstitial_1"
+          },
+          {
+            "id": 10,
+            "created_at": "2021-11-30T11:08:47.000000Z",
+            "updated_at": "2022-02-11T15:28:55.000000Z",
+            "is_enabled": "true",
+            "provider": "mynetwork",
+            "ad_id": "ca-app-pub-3940256099942544/1033173712",
+            "type": "interstitial",
+            "screen_id": 5,
+            "name": "interstitial_2"
+          },
+          {
+            "id": 10,
+            "created_at": "2021-11-30T11:08:47.000000Z",
+            "updated_at": "2022-02-11T15:28:55.000000Z",
+            "is_enabled": "true",
+            "provider": "mynetwork",
+            "ad_id": "ca-app-pub-3940256099942544/1033173712",
+            "type": "interstitial",
+            "screen_id": 5,
+            "name": "interstitial_1"
+          },
+          {
+            "id": 10,
+            "created_at": "2021-11-30T11:08:47.000000Z",
+            "updated_at": "2022-02-11T15:28:55.000000Z",
+            "is_enabled": "true",
+            "provider": "mynetwork",
+            "ad_id": "ca-app-pub-3940256099942544/1033173712",
+            "type": "interstitial",
+            "screen_id": 5,
+            "name": "interstitial_2"
+          },
+          {
+            "id": 11,
+            "created_at": "2021-11-30T11:08:50.000000Z",
+            "updated_at": "2022-02-11T15:29:03.000000Z",
+            "is_enabled": "true",
+            "provider": "mynetwork",
+            "ad_id": "ca-app-pub-3940256099942544/6300978111",
+            "type": "banner",
+            "screen_id": 5,
+            "name": "banner_1"
+          },
+          {
+            "id": 11,
+            "created_at": "2021-11-30T11:08:50.000000Z",
+            "updated_at": "2022-02-11T15:29:03.000000Z",
+            "is_enabled": "true",
+            "provider": "mynetwork",
+            "ad_id": "banner_1",
+            "type": "banner",
+            "screen_id": 5,
+            "name": "banner_1"
+          },
+          {
+            "id": 5565,
+            "created_at": "2021-11-30T10:08:45.000000Z",
+            "updated_at": "2022-02-07T12:43:14.000000Z",
+            "is_enabled": "true",
+            "provider": "mynetwork",
+            "ad_id": "interstitial_1",
+            "type": "interstitial",
+            "screen_id": 3,
+            "name": "interstitial_1"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "created_at": "2021-11-30T11:05:00.000000Z",
+        "updated_at": "2021-11-30T11:05:08.000000Z",
+        "ads_provider": "mynetwork",
+        "background": "#FFFFFF",
+        "background_type": "color",
+        "app_config_id": 1,
+        "name": "step_4_screen",
+        "views": [
+          {
+            "id": 1,
+            "created_at": "2021-11-30T11:24:04.000000Z",
+            "updated_at": "2022-02-11T13:50:55.000000Z",
+            "type": "textView",
+            "background_type": "color",
+            "background": "#FFFFFF",
+            "text": "Say goodbye to those long Powerball mania lines and say hello to Jackpocket!” – as seen on Good Morning America.",
+            "screen_id": 5,
+            "name": "body_4",
+            "views_data": []
+          }
+        ],
+        "advertisements": [
+          {
+            "id": 9,
+            "created_at": "2021-11-30T11:08:47.000000Z",
+            "updated_at": "2022-02-07T13:07:30.000000Z",
+            "is_enabled": "false",
+            "provider": "mynetwork",
+            "ad_id": "ca-app-pub-3940256099942544/2247696110",
+            "type": "native",
+            "screen_id": 5,
+            "name": "native_1"
+          },
+          {
+            "id": 9,
+            "created_at": "2021-11-30T11:08:47.000000Z",
+            "updated_at": "2022-02-07T13:07:30.000000Z",
+            "is_enabled": "false",
+            "provider": "mynetwork",
+            "ad_id": "ca-app-pub-3940256099942544/2247696110",
+            "type": "native",
+            "screen_id": 5,
+            "name": "native_2"
+          },
+          {
+            "id": 9,
+            "created_at": "2021-11-30T11:08:47.000000Z",
+            "updated_at": "2022-02-07T13:07:30.000000Z",
+            "is_enabled": "true",
+            "provider": "mynetwork",
+            "ad_id": "66666666666666",
+            "type": "native",
+            "screen_id": 5,
+            "name": "native_1"
+          },
+          {
+            "id": 9,
+            "created_at": "2021-11-30T11:08:47.000000Z",
+            "updated_at": "2022-02-07T13:07:30.000000Z",
+            "is_enabled": "true",
+            "provider": "mynetwork",
+            "ad_id": "ca-app-pub-3940256099942544/2247696110",
+            "type": "native",
+            "screen_id": 5,
+            "name": "native_2"
+          },
+          {
+            "id": 10,
+            "created_at": "2021-11-30T11:08:47.000000Z",
+            "updated_at": "2022-02-11T15:28:55.000000Z",
+            "is_enabled": "true",
+            "provider": "mynetwork",
+            "ad_id": "ca-app-pub-3940256099942544/1033173712",
+            "type": "interstitial",
+            "screen_id": 5,
+            "name": "interstitial_1"
+          },
+          {
+            "id": 10,
+            "created_at": "2021-11-30T11:08:47.000000Z",
+            "updated_at": "2022-02-11T15:28:55.000000Z",
+            "is_enabled": "true",
+            "provider": "mynetwork",
+            "ad_id": "ca-app-pub-3940256099942544/1033173712",
+            "type": "interstitial",
+            "screen_id": 5,
+            "name": "interstitial_2"
+          },
+          {
+            "id": 10,
+            "created_at": "2021-11-30T11:08:47.000000Z",
+            "updated_at": "2022-02-11T15:28:55.000000Z",
+            "is_enabled": "true",
+            "provider": "mynetwork",
+            "ad_id": "ca-app-pub-3940256099942544/1033173712",
+            "type": "interstitial",
+            "screen_id": 5,
+            "name": "interstitial_1"
+          },
+          {
+            "id": 10,
+            "created_at": "2021-11-30T11:08:47.000000Z",
+            "updated_at": "2022-02-11T15:28:55.000000Z",
+            "is_enabled": "true",
+            "provider": "mynetwork",
+            "ad_id": "ca-app-pub-3940256099942544/1033173712",
+            "type": "interstitial",
+            "screen_id": 5,
+            "name": "interstitial_2"
+          },
+          {
+            "id": 11,
+            "created_at": "2021-11-30T11:08:50.000000Z",
+            "updated_at": "2022-02-11T15:29:03.000000Z",
+            "is_enabled": "true",
+            "provider": "mynetwork",
+            "ad_id": "ca-app-pub-3940256099942544/6300978111",
+            "type": "banner",
+            "screen_id": 5,
+            "name": "banner_1"
+          },
+          {
+            "id": 11,
+            "created_at": "2021-11-30T11:08:50.000000Z",
+            "updated_at": "2022-02-11T15:29:03.000000Z",
+            "is_enabled": "true",
+            "provider": "mynetwork",
+            "ad_id": "banner_1",
+            "type": "banner",
+            "screen_id": 5,
+            "name": "banner_1"
+          },
+          {
+            "id": 5565,
+            "created_at": "2021-11-30T10:08:45.000000Z",
+            "updated_at": "2022-02-07T12:43:14.000000Z",
+            "is_enabled": "true",
+            "provider": "mynetwork",
+            "ad_id": "interstitial_1",
+            "type": "interstitial",
+            "screen_id": 3,
+            "name": "interstitial_1"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "created_at": "2021-11-30T11:05:00.000000Z",
+        "updated_at": "2021-11-30T11:05:08.000000Z",
+        "ads_provider": "mynetwork",
+        "background": "#FFFFFF",
+        "background_type": "color",
+        "app_config_id": 1,
+        "name": "step_5_screen",
+        "views": [
+          {
+            "id": 1,
+            "created_at": "2021-11-30T11:24:04.000000Z",
+            "updated_at": "2022-02-11T13:50:55.000000Z",
+            "type": "textView",
+            "background_type": "color",
+            "background": "#FFFFFF",
+            "text": " Play Mega Millions, Powerball, and more official lottery games in your state",
+            "screen_id": 5,
+            "name": "body_5",
+            "views_data": []
+          }
+        ],
+        "advertisements": [
+          {
+            "id": 9,
+            "created_at": "2021-11-30T11:08:47.000000Z",
+            "updated_at": "2022-02-07T13:07:30.000000Z",
+            "is_enabled": "false",
+            "provider": "mynetwork",
+            "ad_id": "ca-app-pub-3940256099942544/2247696110",
+            "type": "native",
+            "screen_id": 5,
+            "name": "native_1"
+          },
+          {
+            "id": 9,
+            "created_at": "2021-11-30T11:08:47.000000Z",
+            "updated_at": "2022-02-07T13:07:30.000000Z",
+            "is_enabled": "false",
+            "provider": "mynetwork",
+            "ad_id": "ca-app-pub-3940256099942544/2247696110",
+            "type": "native",
+            "screen_id": 5,
+            "name": "native_2"
+          },
+          {
+            "id": 9,
+            "created_at": "2021-11-30T11:08:47.000000Z",
+            "updated_at": "2022-02-07T13:07:30.000000Z",
+            "is_enabled": "true",
+            "provider": "mynetwork",
+            "ad_id": "66666666666666",
+            "type": "native",
+            "screen_id": 5,
+            "name": "native_1"
+          },
+          {
+            "id": 9,
+            "created_at": "2021-11-30T11:08:47.000000Z",
+            "updated_at": "2022-02-07T13:07:30.000000Z",
+            "is_enabled": "true",
+            "provider": "mynetwork",
+            "ad_id": "ca-app-pub-3940256099942544/2247696110",
+            "type": "native",
+            "screen_id": 5,
+            "name": "native_2"
+          },
+          {
+            "id": 10,
+            "created_at": "2021-11-30T11:08:47.000000Z",
+            "updated_at": "2022-02-11T15:28:55.000000Z",
+            "is_enabled": "true",
+            "provider": "mynetwork",
+            "ad_id": "ca-app-pub-3940256099942544/1033173712",
+            "type": "interstitial",
+            "screen_id": 5,
+            "name": "interstitial_1"
+          },
+          {
+            "id": 10,
+            "created_at": "2021-11-30T11:08:47.000000Z",
+            "updated_at": "2022-02-11T15:28:55.000000Z",
+            "is_enabled": "true",
+            "provider": "mynetwork",
+            "ad_id": "ca-app-pub-3940256099942544/1033173712",
+            "type": "interstitial",
+            "screen_id": 5,
+            "name": "interstitial_2"
+          },
+          {
+            "id": 10,
+            "created_at": "2021-11-30T11:08:47.000000Z",
+            "updated_at": "2022-02-11T15:28:55.000000Z",
+            "is_enabled": "true",
+            "provider": "mynetwork",
+            "ad_id": "ca-app-pub-3940256099942544/1033173712",
+            "type": "interstitial",
+            "screen_id": 5,
+            "name": "interstitial_1"
+          },
+          {
+            "id": 10,
+            "created_at": "2021-11-30T11:08:47.000000Z",
+            "updated_at": "2022-02-11T15:28:55.000000Z",
+            "is_enabled": "true",
+            "provider": "mynetwork",
+            "ad_id": "ca-app-pub-3940256099942544/1033173712",
+            "type": "interstitial",
+            "screen_id": 5,
+            "name": "interstitial_2"
+          },
+          {
+            "id": 11,
+            "created_at": "2021-11-30T11:08:50.000000Z",
+            "updated_at": "2022-02-11T15:29:03.000000Z",
+            "is_enabled": "true",
+            "provider": "mynetwork",
+            "ad_id": "ca-app-pub-3940256099942544/6300978111",
+            "type": "banner",
+            "screen_id": 5,
+            "name": "banner_1"
+          },
+          {
+            "id": 11,
+            "created_at": "2021-11-30T11:08:50.000000Z",
+            "updated_at": "2022-02-11T15:29:03.000000Z",
+            "is_enabled": "true",
+            "provider": "mynetwork",
+            "ad_id": "banner_1",
+            "type": "banner",
+            "screen_id": 5,
+            "name": "banner_1"
+          },
+          {
+            "id": 5565,
+            "created_at": "2021-11-30T10:08:45.000000Z",
+            "updated_at": "2022-02-07T12:43:14.000000Z",
+            "is_enabled": "true",
+            "provider": "mynetwork",
+            "ad_id": "interstitial_1",
+            "type": "interstitial",
+            "screen_id": 3,
+            "name": "interstitial_1"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "created_at": "2021-11-30T11:05:00.000000Z",
+        "updated_at": "2021-11-30T11:05:08.000000Z",
+        "ads_provider": "mynetwork",
+        "background": "#FFFFFF",
+        "background_type": "color",
+        "app_config_id": 1,
+        "name": "step_6_screen",
+        "views": [
+          {
+            "id": 1,
+            "created_at": "2021-11-30T11:24:04.000000Z",
+            "updated_at": "2022-02-11T13:50:55.000000Z",
+            "type": "textView",
+            "background_type": "color",
+            "background": "#FFFFFF",
+            "text": "Get scratch tickets mailed to your door. Available in TX and CO with more scratch-off states coming soon!",
+            "screen_id": 5,
+            "name": "body_6",
+            "views_data": []
+          }
+        ],
+        "advertisements": [
+          {
+            "id": 9,
+            "created_at": "2021-11-30T11:08:47.000000Z",
+            "updated_at": "2022-02-07T13:07:30.000000Z",
+            "is_enabled": "false",
+            "provider": "mynetwork",
+            "ad_id": "ca-app-pub-3940256099942544/2247696110",
+            "type": "native",
+            "screen_id": 5,
+            "name": "native_1"
+          },
+          {
+            "id": 9,
+            "created_at": "2021-11-30T11:08:47.000000Z",
+            "updated_at": "2022-02-07T13:07:30.000000Z",
+            "is_enabled": "false",
+            "provider": "mynetwork",
+            "ad_id": "ca-app-pub-3940256099942544/2247696110",
+            "type": "native",
+            "screen_id": 5,
+            "name": "native_2"
+          },
+          {
+            "id": 9,
+            "created_at": "2021-11-30T11:08:47.000000Z",
+            "updated_at": "2022-02-07T13:07:30.000000Z",
+            "is_enabled": "true",
+            "provider": "mynetwork",
+            "ad_id": "66666666666666",
+            "type": "native",
+            "screen_id": 5,
+            "name": "native_1"
+          },
+          {
+            "id": 9,
+            "created_at": "2021-11-30T11:08:47.000000Z",
+            "updated_at": "2022-02-07T13:07:30.000000Z",
+            "is_enabled": "true",
+            "provider": "mynetwork",
+            "ad_id": "ca-app-pub-3940256099942544/2247696110",
+            "type": "native",
+            "screen_id": 5,
+            "name": "native_2"
+          },
+          {
+            "id": 10,
+            "created_at": "2021-11-30T11:08:47.000000Z",
+            "updated_at": "2022-02-11T15:28:55.000000Z",
+            "is_enabled": "true",
+            "provider": "mynetwork",
+            "ad_id": "ca-app-pub-3940256099942544/1033173712",
+            "type": "interstitial",
+            "screen_id": 5,
+            "name": "interstitial_1"
+          },
+          {
+            "id": 10,
+            "created_at": "2021-11-30T11:08:47.000000Z",
+            "updated_at": "2022-02-11T15:28:55.000000Z",
+            "is_enabled": "true",
+            "provider": "mynetwork",
+            "ad_id": "ca-app-pub-3940256099942544/1033173712",
+            "type": "interstitial",
+            "screen_id": 5,
+            "name": "interstitial_2"
+          },
+          {
+            "id": 10,
+            "created_at": "2021-11-30T11:08:47.000000Z",
+            "updated_at": "2022-02-11T15:28:55.000000Z",
+            "is_enabled": "true",
+            "provider": "mynetwork",
+            "ad_id": "ca-app-pub-3940256099942544/1033173712",
+            "type": "interstitial",
+            "screen_id": 5,
+            "name": "interstitial_1"
+          },
+          {
+            "id": 10,
+            "created_at": "2021-11-30T11:08:47.000000Z",
+            "updated_at": "2022-02-11T15:28:55.000000Z",
+            "is_enabled": "true",
+            "provider": "mynetwork",
+            "ad_id": "ca-app-pub-3940256099942544/1033173712",
+            "type": "interstitial",
+            "screen_id": 5,
+            "name": "interstitial_2"
+          },
+          {
+            "id": 11,
+            "created_at": "2021-11-30T11:08:50.000000Z",
+            "updated_at": "2022-02-11T15:29:03.000000Z",
+            "is_enabled": "true",
+            "provider": "mynetwork",
+            "ad_id": "ca-app-pub-3940256099942544/6300978111",
+            "type": "banner",
+            "screen_id": 5,
+            "name": "banner_1"
+          },
+          {
+            "id": 11,
+            "created_at": "2021-11-30T11:08:50.000000Z",
+            "updated_at": "2022-02-11T15:29:03.000000Z",
+            "is_enabled": "true",
+            "provider": "mynetwork",
+            "ad_id": "banner_1",
+            "type": "banner",
+            "screen_id": 5,
+            "name": "banner_1"
+          },
+          {
+            "id": 5565,
+            "created_at": "2021-11-30T10:08:45.000000Z",
+            "updated_at": "2022-02-07T12:43:14.000000Z",
+            "is_enabled": "true",
+            "provider": "mynetwork",
+            "ad_id": "interstitial_1",
+            "type": "interstitial",
+            "screen_id": 3,
+            "name": "interstitial_1"
+          }
+        ]
+      },
+      {
+        "id": 11,
+        "created_at": "2021-11-30T12:07:40.000000Z",
+        "updated_at": "2021-11-30T12:08:06.000000Z",
+        "ads_provider": "mynetwork",
+        "background": "#FFFFFF",
+        "background_type": "color",
+        "app_config_id": 1,
+        "name": "data_list_screen",
+        "views": [
+          {
+            "id": 7,
+            "created_at": "2021-11-30T12:10:48.000000Z",
+            "updated_at": "2021-11-30T12:29:02.000000Z",
+            "type": "textView",
+            "background_type": "color",
+            "background": "#FFFFFF",
+            "text": "Linktree is the launchpad to your latest video, article, recipe, tour, store, website, social post - everywhere you are online.",
+            "screen_id": 11,
+            "name": "title_1",
+            "views_data": []
+          },
+          {
+            "id": 8,
+            "created_at": "2021-11-30T12:10:49.000000Z",
+            "updated_at": "2021-11-30T12:29:15.000000Z",
+            "type": "textView",
+            "background_type": "color",
+            "background": "#FFFFFF",
+            "text": "**How to test an iphone inside sim card mobile",
+            "screen_id": 11,
+            "name": "title_2",
+            "views_data": []
+          },
+          {
+            "id": 9,
+            "created_at": "2021-11-30T12:10:52.000000Z",
+            "updated_at": "2021-11-30T12:29:21.000000Z",
+            "type": "textView",
+            "background_type": "color",
+            "background": "#FFFFFF",
+            "text": "***How to test an iphone inside sim card mobile",
+            "screen_id": 11,
+            "name": "title_3",
+            "views_data": []
+          },
+          {
+            "id": 10,
+            "created_at": "2021-11-30T12:10:56.000000Z",
+            "updated_at": "2021-11-30T12:29:28.000000Z",
+            "type": "textView",
+            "background_type": "color",
+            "background": "#FFFFFF",
+            "text": "***How to test an iphone inside sim card mobile",
+            "screen_id": 11,
+            "name": "title_4",
+            "views_data": []
+          },
+          {
+            "id": 11,
+            "created_at": "2021-11-30T12:10:57.000000Z",
+            "updated_at": "2021-11-30T12:29:35.000000Z",
+            "type": "textView",
+            "background_type": "color",
+            "background": "#FFFFFF",
+            "text": "***to test an iphone inside sim card mobile",
+            "screen_id": 11,
+            "name": "title_5",
+            "views_data": []
+          },
+          {
+            "id": 12,
+            "created_at": "2021-11-30T12:11:07.000000Z",
+            "updated_at": "2021-11-30T12:29:40.000000Z",
+            "type": "textView",
+            "background_type": "color",
+            "background": "#FFFFFF",
+            "text": "From tips for your content, to donations for your projects, let your fans & followers support you in monetizing your passions.",
+            "screen_id": 11,
+            "name": "title_6",
+            "views_data": []
+          },
+          {
+            "id": 124,
+            "created_at": "2021-12-01T14:20:10.000000Z",
+            "updated_at": "2021-12-09T14:23:43.000000Z",
+            "type": "button",
+            "background_type": "color",
+            "background": "#FFFFFF",
+            "text": "Get started",
+            "screen_id": 11,
+            "name": "button_get_started",
+            "views_data": [
+              {
+                "id": 2,
+                "created_at": "2021-12-01T14:20:33.000000Z",
+                "updated_at": "2021-12-01T14:39:13.000000Z",
+                "key": "text",
+                "value": "http://cwell.site/",
+                "view_id": 124
+              }
             ]
-         },
-         {
-            "id":2,
-            "created_at":"2021-11-29T22:21:30.000000Z",
-            "updated_at":"2021-11-29T22:22:39.000000Z",
-            "ads_provider":"admob",
-            "background":"#FFFFFF",
-            "background_type":"color",
-            "app_config_id":1,
-            "name":"login_screen",
-            "views":[
-               
-            ],
-            "advertisements":[
-               {
-                  "id":2,
-                  "created_at":"2021-11-29T22:23:58.000000Z",
-                  "updated_at":"2022-02-08T00:34:45.000000Z",
-                  "is_enabled":"false",
-                  "provider":"admob",
-                  "ad_id":"ca-app-pub-3940256099942544/2247696110",
-                  "type":"native",
-                  "screen_id":2,
-                  "name":"native_1"
-               },
-               {
-                  "id":3,
-                  "created_at":"2021-11-29T22:26:01.000000Z",
-                  "updated_at":"2022-02-01T11:47:07.000000Z",
-                  "is_enabled":"false",
-                  "provider":"admob",
-                  "ad_id":"ca-app-pub-3940256099942544/6300978111",
-                  "type":"banner",
-                  "screen_id":2,
-                  "name":"banner_1"
-               }
+          }
+        ],
+        "advertisements": [
+          {
+            "id": 27,
+            "created_at": "2021-11-30T12:32:38.000000Z",
+            "updated_at": "2022-02-07T14:20:37.000000Z",
+            "is_enabled": "true",
+            "provider": "mynetwork",
+            "ad_id": "a236db6b59c5061a",
+            "type": "native",
+            "screen_id": 11,
+            "name": "native_1"
+          }
+        ]
+      },
+      {
+        "id": 12,
+        "created_at": "2021-11-30T13:00:13.000000Z",
+        "updated_at": "2021-11-30T13:00:19.000000Z",
+        "ads_provider": "mynetwork",
+        "background": "#FFFFFF",
+        "background_type": "color",
+        "app_config_id": 1,
+        "name": "article_1_screen",
+        "views": [
+          {
+            "id": 13,
+            "created_at": "2021-11-30T13:11:00.000000Z",
+            "updated_at": "2021-11-30T13:11:56.000000Z",
+            "type": "textView",
+            "background_type": "color",
+            "background": "#FFFFFF",
+            "text": "Creating a Linktree takes seconds. Use our simple drag-and-drop editor to effortlessly manage your content.",
+            "screen_id": 12,
+            "name": "body_1",
+            "views_data": []
+          },
+          {
+            "id": 14,
+            "created_at": "2021-11-30T13:11:00.000000Z",
+            "updated_at": "2021-11-30T13:15:13.000000Z",
+            "type": "textView",
+            "background_type": "color",
+            "background": "#FFFFFF",
+            "text": "Privacy is non-negotiable. Linktree is committed to protecting the privacy of you and your visitors.",
+            "screen_id": 12,
+            "name": "body_2",
+            "views_data": []
+          },
+          {
+            "id": 15,
+            "created_at": "2021-11-30T13:11:00.000000Z",
+            "updated_at": "2021-11-30T13:15:46.000000Z",
+            "type": "textView",
+            "background_type": "color",
+            "background": "#FFFFFF",
+            "text": "Make your Linktree pop. Embody your brand through custom colors, fonts and images.",
+            "screen_id": 12,
+            "name": "title",
+            "views_data": []
+          }
+        ],
+        "advertisements": [
+          {
+            "id": 28,
+            "created_at": "2021-11-30T13:21:17.000000Z",
+            "updated_at": "2021-12-03T20:54:17.000000Z",
+            "is_enabled": "true",
+            "provider": "mynetwork",
+            "ad_id": "ca-app-pub-",
+            "type": "native",
+            "screen_id": 12,
+            "name": "native_1"
+          }
+        ]
+      },
+      {
+        "id": 13,
+        "created_at": "2021-11-30T13:00:13.000000Z",
+        "updated_at": "2021-11-30T13:05:59.000000Z",
+        "ads_provider": "mynetwork",
+        "background": "#FFFFFF",
+        "background_type": "color",
+        "app_config_id": 1,
+        "name": "article_2_screen",
+        "views": [
+          {
+            "id": 16,
+            "created_at": "2021-11-30T13:36:11.000000Z",
+            "updated_at": "2021-11-30T13:36:29.000000Z",
+            "type": "textView",
+            "background_type": "color",
+            "background": "#FFFFFF",
+            "text": "*** Nothing to see here..",
+            "screen_id": 13,
+            "name": "body_1",
+            "views_data": []
+          },
+          {
+            "id": 17,
+            "created_at": "2021-11-30T13:36:11.000000Z",
+            "updated_at": "2021-11-30T13:36:44.000000Z",
+            "type": "textView",
+            "background_type": "color",
+            "background": "#FFFFFF",
+            "text": "** Nothing to see here..",
+            "screen_id": 13,
+            "name": "body_2",
+            "views_data": []
+          },
+          {
+            "id": 18,
+            "created_at": "2021-11-30T13:36:11.000000Z",
+            "updated_at": "2021-11-30T13:37:00.000000Z",
+            "type": "textView",
+            "background_type": "color",
+            "background": "#FFFFFF",
+            "text": "Nothing *** to see here..",
+            "screen_id": 13,
+            "name": "title",
+            "views_data": []
+          }
+        ],
+        "advertisements": [
+          {
+            "id": 29,
+            "created_at": "2021-11-30T13:37:12.000000Z",
+            "updated_at": "2022-02-04T14:30:05.000000Z",
+            "is_enabled": "true",
+            "provider": "mynetwork",
+            "ad_id": "ca-app-pub-3940256099942544/2247696110",
+            "type": "native",
+            "screen_id": 13,
+            "name": "native_1"
+          }
+        ]
+      },
+      {
+        "id": 14,
+        "created_at": "2021-11-30T13:00:13.000000Z",
+        "updated_at": "2021-11-30T13:06:39.000000Z",
+        "ads_provider": "mynetwork",
+        "background": "#FFFFFF",
+        "background_type": "color",
+        "app_config_id": 1,
+        "name": "article_3_screen",
+        "views": [
+          {
+            "id": 19,
+            "created_at": "2021-11-30T13:37:32.000000Z",
+            "updated_at": "2021-11-30T13:38:25.000000Z",
+            "type": "textView",
+            "background_type": "color",
+            "background": "#FFFFFF",
+            "text": "******",
+            "screen_id": 14,
+            "name": "title",
+            "views_data": []
+          },
+          {
+            "id": 20,
+            "created_at": "2021-11-30T13:37:32.000000Z",
+            "updated_at": "2021-11-30T13:38:37.000000Z",
+            "type": "textView",
+            "background_type": "color",
+            "background": "#FFFFFF",
+            "text": "*******",
+            "screen_id": 14,
+            "name": "body_1",
+            "views_data": []
+          },
+          {
+            "id": 21,
+            "created_at": "2021-11-30T13:37:33.000000Z",
+            "updated_at": "2021-11-30T13:38:52.000000Z",
+            "type": "textView",
+            "background_type": "color",
+            "background": "#FFFFFF",
+            "text": "*******",
+            "screen_id": 14,
+            "name": "body_2",
+            "views_data": []
+          }
+        ],
+        "advertisements": [
+          {
+            "id": 30,
+            "created_at": "2021-11-30T13:37:37.000000Z",
+            "updated_at": "2022-02-04T14:30:10.000000Z",
+            "is_enabled": "true",
+            "provider": "mynetwork",
+            "ad_id": "ca-app-pub-ca-app-pub-3940256099942544/2247696110",
+            "type": "native",
+            "screen_id": 14,
+            "name": "native_1"
+          }
+        ]
+      },
+      {
+        "id": 15,
+        "created_at": "2021-11-30T13:00:13.000000Z",
+        "updated_at": "2021-11-30T13:06:50.000000Z",
+        "ads_provider": "mynetwork",
+        "background": "#FFFFFF",
+        "background_type": "color",
+        "app_config_id": 1,
+        "name": "article_4_screen",
+        "views": [
+          {
+            "id": 23,
+            "created_at": "2021-11-30T13:39:01.000000Z",
+            "updated_at": "2021-11-30T13:39:20.000000Z",
+            "type": "textView",
+            "background_type": "color",
+            "background": "#FFFFFF",
+            "text": "****",
+            "screen_id": 15,
+            "name": "title",
+            "views_data": []
+          },
+          {
+            "id": 24,
+            "created_at": "2021-11-30T13:39:01.000000Z",
+            "updated_at": "2021-11-30T13:39:30.000000Z",
+            "type": "textView",
+            "background_type": "color",
+            "background": "#FFFFFF",
+            "text": "Nothing to see here..",
+            "screen_id": 15,
+            "name": "body_1",
+            "views_data": []
+          },
+          {
+            "id": 25,
+            "created_at": "2021-11-30T13:39:02.000000Z",
+            "updated_at": "2021-11-30T13:39:40.000000Z",
+            "type": "textView",
+            "background_type": "color",
+            "background": "#FFFFFF",
+            "text": "Nothing to see here..",
+            "screen_id": 15,
+            "name": "body_2",
+            "views_data": []
+          }
+        ],
+        "advertisements": [
+          {
+            "id": 31,
+            "created_at": "2021-11-30T13:39:47.000000Z",
+            "updated_at": "2021-12-03T20:54:41.000000Z",
+            "is_enabled": "true",
+            "provider": "mynetwork",
+            "ad_id": "ca-app-pub-",
+            "type": "native",
+            "screen_id": 15,
+            "name": "native_1"
+          }
+        ]
+      },
+      {
+        "id": 16,
+        "created_at": "2021-11-30T13:00:13.000000Z",
+        "updated_at": "2021-11-30T13:06:57.000000Z",
+        "ads_provider": "mynetwork",
+        "background": "#FFFFFF",
+        "background_type": "color",
+        "app_config_id": 1,
+        "name": "article_5_screen",
+        "views": [
+          {
+            "id": 27,
+            "created_at": "2021-11-30T13:40:10.000000Z",
+            "updated_at": "2021-11-30T13:40:25.000000Z",
+            "type": "textView",
+            "background_type": "color",
+            "background": "#FFFFFF",
+            "text": "Nothing to see here..",
+            "screen_id": 16,
+            "name": "title",
+            "views_data": []
+          },
+          {
+            "id": 28,
+            "created_at": "2021-11-30T13:40:10.000000Z",
+            "updated_at": "2021-11-30T13:40:38.000000Z",
+            "type": "textView",
+            "background_type": "color",
+            "background": "#FFFFFF",
+            "text": "Nothing to see here..",
+            "screen_id": 16,
+            "name": "body_1",
+            "views_data": []
+          },
+          {
+            "id": 29,
+            "created_at": "2021-11-30T13:40:10.000000Z",
+            "updated_at": "2021-11-30T13:40:49.000000Z",
+            "type": "textView",
+            "background_type": "color",
+            "background": "#FFFFFF",
+            "text": "Nothing to see here..",
+            "screen_id": 16,
+            "name": "body_2",
+            "views_data": []
+          }
+        ],
+        "advertisements": [
+          {
+            "id": 32,
+            "created_at": "2021-11-30T13:40:53.000000Z",
+            "updated_at": "2022-02-04T14:30:17.000000Z",
+            "is_enabled": "true",
+            "provider": "mynetwork",
+            "ad_id": "ca-app-pub-3940256099942544/2247696110",
+            "type": "native",
+            "screen_id": 16,
+            "name": "native_1"
+          }
+        ]
+      },
+      {
+        "id": 17,
+        "created_at": "2021-11-30T13:07:14.000000Z",
+        "updated_at": "2021-11-30T13:07:21.000000Z",
+        "ads_provider": "mynetwork",
+        "background": "#FFFFFF",
+        "background_type": "color",
+        "app_config_id": 1,
+        "name": "article_6_screen",
+        "views": [
+          {
+            "id": 30,
+            "created_at": "2021-11-30T13:41:09.000000Z",
+            "updated_at": "2021-11-30T13:41:21.000000Z",
+            "type": "textView",
+            "background_type": "color",
+            "background": "#FFFFFF",
+            "text": "Nothing to see here..",
+            "screen_id": 17,
+            "name": "title",
+            "views_data": []
+          },
+          {
+            "id": 31,
+            "created_at": "2021-11-30T13:41:10.000000Z",
+            "updated_at": "2021-11-30T13:41:42.000000Z",
+            "type": "textView",
+            "background_type": "color",
+            "background": "#FFFFFF",
+            "text": "Nothing to see here..",
+            "screen_id": 17,
+            "name": "body_1",
+            "views_data": []
+          },
+          {
+            "id": 32,
+            "created_at": "2021-11-30T13:41:10.000000Z",
+            "updated_at": "2021-11-30T13:41:52.000000Z",
+            "type": "textView",
+            "background_type": "color",
+            "background": "#FFFFFF",
+            "text": "Nothing to see here..",
+            "screen_id": 17,
+            "name": "body_2",
+            "views_data": []
+          }
+        ],
+        "advertisements": [
+          {
+            "id": 33,
+            "created_at": "2021-11-30T13:41:14.000000Z",
+            "updated_at": "2022-02-04T14:30:24.000000Z",
+            "is_enabled": "true",
+            "provider": "mynetwork",
+            "ad_id": "ca-app-pub-3940256099942544/2247696110",
+            "type": "native",
+            "screen_id": 17,
+            "name": "native_1"
+          }
+        ]
+      },
+      {
+        "id": 596,
+        "created_at": "2021-12-09T13:13:21.000000Z",
+        "updated_at": "2021-12-09T13:13:32.000000Z",
+        "ads_provider": "mynetwork",
+        "background": "#FFFFFF",
+        "background_type": "color",
+        "app_config_id": 1,
+        "name": "screen_verification",
+        "views": [
+          {
+            "id": 1087,
+            "created_at": "2021-12-09T13:13:38.000000Z",
+            "updated_at": "2021-12-09T14:03:08.000000Z",
+            "type": "button",
+            "background_type": "color",
+            "background": "#FFFFFF",
+            "text": "Get Verification Code",
+            "screen_id": 596,
+            "name": "button_get_verification_code",
+            "views_data": [
+              {
+                "id": 34,
+                "created_at": "2021-12-09T13:16:39.000000Z",
+                "updated_at": "2021-12-09T13:16:59.000000Z",
+                "key": "link",
+                "value": "https://app.marquevoiture.com/",
+                "view_id": 1087
+              }
             ]
-         },
-         {
-            "id":3,
-            "created_at":"2021-11-29T22:29:04.000000Z",
-            "updated_at":"2021-11-29T22:35:32.000000Z",
-            "ads_provider":"admob",
-            "background":"#FFFFFF",
-            "background_type":"color",
-            "app_config_id":1,
-            "name":"start_screen",
-            "views":[
-               
-            ],
-            "advertisements":[
-               {
-                  "id":4,
-                  "created_at":"2021-11-29T22:35:42.000000Z",
-                  "updated_at":"2022-02-07T12:42:36.000000Z",
-                  "is_enabled":"false",
-                  "provider":"admob",
-                  "ad_id":"ca-app-pub-3940256099942544/2247696110",
-                  "type":"native",
-                  "screen_id":3,
-                  "name":"native_1"
-               },
-               {
-                  "id":5,
-                  "created_at":"2021-11-29T22:35:50.000000Z",
-                  "updated_at":"2022-02-07T12:42:59.000000Z",
-                  "is_enabled":"false",
-                  "provider":"admob",
-                  "ad_id":"ca-app-pub-3940256099942544/6300978111",
-                  "type":"banner",
-                  "screen_id":3,
-                  "name":"banner_1"
-               },
-               {
-                  "id":6,
-                  "created_at":"2021-11-30T10:08:45.000000Z",
-                  "updated_at":"2022-02-07T12:43:14.000000Z",
-                  "is_enabled":"false",
-                  "provider":"admob",
-                  "ad_id":"ca-app-pub-3940256099942****544/1033173712",
-                  "type":"interstitial",
-                  "screen_id":3,
-                  "name":"interstitial_1"
-               }
+          },
+          {
+            "id": 1088,
+            "created_at": "2021-12-09T13:13:39.000000Z",
+            "updated_at": "2021-12-09T14:03:14.000000Z",
+            "type": "button",
+            "background_type": "color",
+            "background": "#FFFFFF",
+            "text": "Install",
+            "screen_id": 596,
+            "name": "button_install",
+            "views_data": [
+              {
+                "id": 35,
+                "created_at": "2021-12-09T14:04:11.000000Z",
+                "updated_at": "2021-12-09T14:04:26.000000Z",
+                "key": "link",
+                "value": "https://app.marquevoiture.com/",
+                "view_id": 1088
+              }
             ]
-         },
-         {
-            "id":4,
-            "created_at":"2021-11-30T10:21:18.000000Z",
-            "updated_at":"2021-11-30T10:21:31.000000Z",
-            "ads_provider":"ironsource",
-            "background":"#FFFFFF",
-            "background_type":"color",
-            "app_config_id":1,
-            "name":"quick_tour_screen",
-            "views":[
-               
-            ],
-            "advertisements":[
-               {
-                  "id":7,
-                  "created_at":"2021-11-30T10:44:23.000000Z",
-                  "updated_at":"2022-02-07T12:46:10.000000Z",
-                  "is_enabled":"false",
-                  "provider":"admob",
-                  "ad_id":"ca-app-pub-3940256099942544/2247696110",
-                  "type":"native",
-                  "screen_id":4,
-                  "name":"native_1"
-               },
-               {
-                  "id":7,
-                  "created_at":"2021-11-30T10:44:23.000000Z",
-                  "updated_at":"2022-02-07T12:46:10.000000Z",
-                  "is_enabled":"false",
-                  "provider":"admob",
-                  "ad_id":"ca-app-pub-3940256099942544/2247696110",
-                  "type":"native",
-                  "screen_id":4,
-                  "name":"native_2"
-               },
-               {
-                  "id":7,
-                  "created_at":"2021-11-30T10:44:23.000000Z",
-                  "updated_at":"2022-02-07T12:46:10.000000Z",
-                  "is_enabled":"true",
-                  "provider":"facebook",
-                  "ad_id":"ca-app-pub-3940256099942544/2247696110",
-                  "type":"native",
-                  "screen_id":4,
-                  "name":"native_1"
-               },
-               {
-                  "id":7,
-                  "created_at":"2021-11-30T10:44:23.000000Z",
-                  "updated_at":"2022-02-07T12:46:10.000000Z",
-                  "is_enabled":"true",
-                  "provider":"facebook",
-                  "ad_id":"ca-app-pub-3940256099942544/2247696110",
-                  "type":"native",
-                  "screen_id":4,
-                  "name":"native_2"
-               },
-               {
-                  "id":8,
-                  "created_at":"2021-11-30T10:44:55.000000Z",
-                  "updated_at":"2022-02-07T12:46:25.000000Z",
-                  "is_enabled":"true",
-                  "provider":"admob",
-                  "ad_id":"ca-app-pub-3940256099942544/1033173712",
-                  "type":"interstitial",
-                  "screen_id":4,
-                  "name":"interstitial_1"
-               },
-               {
-                  "id":6,
-                  "created_at":"2021-11-30T10:08:45.000000Z",
-                  "updated_at":"2022-02-07T12:43:14.000000Z",
-                  "is_enabled":"true",
-                  "provider":"admob",
-                  "ad_id":"ca-app-pub-3940256099942544/1033173712",
-                  "type":"interstitial",
-                  "screen_id":3,
-                  "name":"interstitial_2"
-               },
-               {
-                  "id":5565,
-                  "created_at":"2021-11-30T10:08:45.000000Z",
-                  "updated_at":"2022-02-07T12:43:14.000000Z",
-                  "is_enabled":"true",
-                  "provider":"facebook",
-                  "ad_id":"ca-app-pub-3940256099942544/1033173712",
-                  "type":"interstitial",
-                  "screen_id":3,
-                  "name":"interstitial_1"
-               },
-               {
-                  "id":5565,
-                  "created_at":"2021-11-30T10:08:45.000000Z",
-                  "updated_at":"2022-02-07T12:43:14.000000Z",
-                  "is_enabled":"true",
-                  "provider":"facebook",
-                  "ad_id":"ca-app-pub-3940256099942544/1033173712",
-                  "type":"interstitial",
-                  "screen_id":3,
-                  "name":"interstitial_2"
-               },
-               {
-                  "id":5565,
-                  "created_at":"2021-11-30T10:08:45.000000Z",
-                  "updated_at":"2022-02-07T12:43:14.000000Z",
-                  "is_enabled":"true",
-                  "provider":"ironsource",
-                  "ad_id":"interstitial_1",
-                  "type":"interstitial",
-                  "screen_id":3,
-                  "name":"interstitial_1"
-               },
-               {
-                  "id":6697,
-                  "created_at":"2021-11-30T10:44:23.000000Z",
-                  "updated_at":"2022-02-07T12:46:10.000000Z",
-                  "is_enabled":"true",
-                  "provider":"ironsource",
-                  "ad_id":"native_1",
-                  "type":"native",
-                  "screen_id":4,
-                  "name":"native_1"
-               }
-            ]
-         },
-         {
-            "id":5,
-            "created_at":"2021-11-30T11:05:00.000000Z",
-            "updated_at":"2021-11-30T11:05:08.000000Z",
-            "ads_provider":"ironsource",
-            "background":"#FFFFFF",
-            "background_type":"color",
-            "app_config_id":1,
-            "name":"step_1_screen",
-            "views":[
-               {
-                  "id":1,
-                  "created_at":"2021-11-30T11:24:04.000000Z",
-                  "updated_at":"2022-02-11T13:50:55.000000Z",
-                  "type":"textView",
-                  "background_type":"color",
-                  "background":"#FFFFFF",
-                  "text":"Play the lottery from home! Get lottery tickets delivered right to your phone with Jackpocket. Play now in NY, NJ, TX, OH, CO, MN, OR, AR, NM, NH, MT and Washington, D.C.",
-                  "screen_id":5,
-                  "name":"body_1",
-                  "views_data":[
-                     
-                  ]
-               }
-            ],
-            "advertisements":[
-               {
-                  "id":9,
-                  "created_at":"2021-11-30T11:08:47.000000Z",
-                  "updated_at":"2022-02-07T13:07:30.000000Z",
-                  "is_enabled":"false",
-                  "provider":"admob",
-                  "ad_id":"ca-app-pub-3940256099942544/2247696110",
-                  "type":"native",
-                  "screen_id":5,
-                  "name":"native_1"
-               },
-               {
-                  "id":9,
-                  "created_at":"2021-11-30T11:08:47.000000Z",
-                  "updated_at":"2022-02-07T13:07:30.000000Z",
-                  "is_enabled":"false",
-                  "provider":"admob",
-                  "ad_id":"ca-app-pub-3940256099942544/2247696110",
-                  "type":"native",
-                  "screen_id":5,
-                  "name":"native_2"
-               },
-               {
-                  "id":9,
-                  "created_at":"2021-11-30T11:08:47.000000Z",
-                  "updated_at":"2022-02-07T13:07:30.000000Z",
-                  "is_enabled":"true",
-                  "provider":"facebook",
-                  "ad_id":"66666666666666",
-                  "type":"native",
-                  "screen_id":5,
-                  "name":"native_1"
-               },
-               {
-                  "id":9,
-                  "created_at":"2021-11-30T11:08:47.000000Z",
-                  "updated_at":"2022-02-07T13:07:30.000000Z",
-                  "is_enabled":"true",
-                  "provider":"facebook",
-                  "ad_id":"ca-app-pub-3940256099942544/2247696110",
-                  "type":"native",
-                  "screen_id":5,
-                  "name":"native_2"
-               },
-               {
-                  "id":10,
-                  "created_at":"2021-11-30T11:08:47.000000Z",
-                  "updated_at":"2022-02-11T15:28:55.000000Z",
-                  "is_enabled":"true",
-                  "provider":"admob",
-                  "ad_id":"ca-app-pub-3940256099942544/1033173712",
-                  "type":"interstitial",
-                  "screen_id":5,
-                  "name":"interstitial_1"
-               },
-               {
-                  "id":10,
-                  "created_at":"2021-11-30T11:08:47.000000Z",
-                  "updated_at":"2022-02-11T15:28:55.000000Z",
-                  "is_enabled":"true",
-                  "provider":"admob",
-                  "ad_id":"ca-app-pub-3940256099942544/1033173712",
-                  "type":"interstitial",
-                  "screen_id":5,
-                  "name":"interstitial_2"
-               },
-               {
-                  "id":10,
-                  "created_at":"2021-11-30T11:08:47.000000Z",
-                  "updated_at":"2022-02-11T15:28:55.000000Z",
-                  "is_enabled":"true",
-                  "provider":"facebook",
-                  "ad_id":"ca-app-pub-3940256099942544/1033173712",
-                  "type":"interstitial",
-                  "screen_id":5,
-                  "name":"interstitial_1"
-               },
-               {
-                  "id":10,
-                  "created_at":"2021-11-30T11:08:47.000000Z",
-                  "updated_at":"2022-02-11T15:28:55.000000Z",
-                  "is_enabled":"true",
-                  "provider":"facebook",
-                  "ad_id":"ca-app-pub-3940256099942544/1033173712",
-                  "type":"interstitial",
-                  "screen_id":5,
-                  "name":"interstitial_2"
-               },
-               {
-                  "id":11,
-                  "created_at":"2021-11-30T11:08:50.000000Z",
-                  "updated_at":"2022-02-11T15:29:03.000000Z",
-                  "is_enabled":"true",
-                  "provider":"admob",
-                  "ad_id":"ca-app-pub-3940256099942544/6300978111",
-                  "type":"banner",
-                  "screen_id":5,
-                  "name":"banner_1"
-               },
-               {
-                  "id":11,
-                  "created_at":"2021-11-30T11:08:50.000000Z",
-                  "updated_at":"2022-02-11T15:29:03.000000Z",
-                  "is_enabled":"true",
-                  "provider":"ironsource",
-                  "ad_id":"banner_1",
-                  "type":"banner",
-                  "screen_id":5,
-                  "name":"banner_1"
-               },
-               {
-                  "id":5565,
-                  "created_at":"2021-11-30T10:08:45.000000Z",
-                  "updated_at":"2022-02-07T12:43:14.000000Z",
-                  "is_enabled":"true",
-                  "provider":"ironsource",
-                  "ad_id":"interstitial_1",
-                  "type":"interstitial",
-                  "screen_id":3,
-                  "name":"interstitial_1"
-               }
-            ]
-         },
-         {
-            "id":5,
-            "created_at":"2021-11-30T11:05:00.000000Z",
-            "updated_at":"2021-11-30T11:05:08.000000Z",
-            "ads_provider":"ironsource",
-            "background":"#FFFFFF",
-            "background_type":"color",
-            "app_config_id":1,
-            "name":"step_2_screen",
-            "views":[
-               {
-                  "id":1,
-                  "created_at":"2021-11-30T11:24:04.000000Z",
-                  "updated_at":"2022-02-11T13:50:55.000000Z",
-                  "type":"textView",
-                  "background_type":"color",
-                  "background":"#FFFFFF",
-                  "text":"If you love playing lottery games, you’ve gotta get Jackpocket. Our lottery app is the quick, easy, and secure way to order lotto tickets for Powerball",
-                  "screen_id":5,
-                  "name":"body_2",
-                  "views_data":[
-                     
-                  ]
-               }
-            ],
-            "advertisements":[
-               {
-                  "id":9,
-                  "created_at":"2021-11-30T11:08:47.000000Z",
-                  "updated_at":"2022-02-07T13:07:30.000000Z",
-                  "is_enabled":"false",
-                  "provider":"admob",
-                  "ad_id":"ca-app-pub-3940256099942544/2247696110",
-                  "type":"native",
-                  "screen_id":5,
-                  "name":"native_1"
-               },
-               {
-                  "id":9,
-                  "created_at":"2021-11-30T11:08:47.000000Z",
-                  "updated_at":"2022-02-07T13:07:30.000000Z",
-                  "is_enabled":"false",
-                  "provider":"admob",
-                  "ad_id":"ca-app-pub-3940256099942544/2247696110",
-                  "type":"native",
-                  "screen_id":5,
-                  "name":"native_2"
-               },
-               {
-                  "id":9,
-                  "created_at":"2021-11-30T11:08:47.000000Z",
-                  "updated_at":"2022-02-07T13:07:30.000000Z",
-                  "is_enabled":"true",
-                  "provider":"facebook",
-                  "ad_id":"66666666666666",
-                  "type":"native",
-                  "screen_id":5,
-                  "name":"native_1"
-               },
-               {
-                  "id":9,
-                  "created_at":"2021-11-30T11:08:47.000000Z",
-                  "updated_at":"2022-02-07T13:07:30.000000Z",
-                  "is_enabled":"true",
-                  "provider":"facebook",
-                  "ad_id":"ca-app-pub-3940256099942544/2247696110",
-                  "type":"native",
-                  "screen_id":5,
-                  "name":"native_2"
-               },
-               {
-                  "id":10,
-                  "created_at":"2021-11-30T11:08:47.000000Z",
-                  "updated_at":"2022-02-11T15:28:55.000000Z",
-                  "is_enabled":"true",
-                  "provider":"admob",
-                  "ad_id":"ca-app-pub-3940256099942544/1033173712",
-                  "type":"interstitial",
-                  "screen_id":5,
-                  "name":"interstitial_1"
-               },
-               {
-                  "id":10,
-                  "created_at":"2021-11-30T11:08:47.000000Z",
-                  "updated_at":"2022-02-11T15:28:55.000000Z",
-                  "is_enabled":"true",
-                  "provider":"admob",
-                  "ad_id":"ca-app-pub-3940256099942544/1033173712",
-                  "type":"interstitial",
-                  "screen_id":5,
-                  "name":"interstitial_2"
-               },
-               {
-                  "id":10,
-                  "created_at":"2021-11-30T11:08:47.000000Z",
-                  "updated_at":"2022-02-11T15:28:55.000000Z",
-                  "is_enabled":"true",
-                  "provider":"facebook",
-                  "ad_id":"ca-app-pub-3940256099942544/1033173712",
-                  "type":"interstitial",
-                  "screen_id":5,
-                  "name":"interstitial_1"
-               },
-               {
-                  "id":10,
-                  "created_at":"2021-11-30T11:08:47.000000Z",
-                  "updated_at":"2022-02-11T15:28:55.000000Z",
-                  "is_enabled":"true",
-                  "provider":"facebook",
-                  "ad_id":"ca-app-pub-3940256099942544/1033173712",
-                  "type":"interstitial",
-                  "screen_id":5,
-                  "name":"interstitial_2"
-               },
-               {
-                  "id":11,
-                  "created_at":"2021-11-30T11:08:50.000000Z",
-                  "updated_at":"2022-02-11T15:29:03.000000Z",
-                  "is_enabled":"true",
-                  "provider":"admob",
-                  "ad_id":"ca-app-pub-3940256099942544/6300978111",
-                  "type":"banner",
-                  "screen_id":5,
-                  "name":"banner_1"
-               },
-               {
-                  "id":11,
-                  "created_at":"2021-11-30T11:08:50.000000Z",
-                  "updated_at":"2022-02-11T15:29:03.000000Z",
-                  "is_enabled":"true",
-                  "provider":"ironsource",
-                  "ad_id":"banner_1",
-                  "type":"banner",
-                  "screen_id":5,
-                  "name":"banner_1"
-               },
-               {
-                  "id":5565,
-                  "created_at":"2021-11-30T10:08:45.000000Z",
-                  "updated_at":"2022-02-07T12:43:14.000000Z",
-                  "is_enabled":"true",
-                  "provider":"ironsource",
-                  "ad_id":"interstitial_1",
-                  "type":"interstitial",
-                  "screen_id":3,
-                  "name":"interstitial_1"
-               }
-            ]
-         },
-         {
-            "id":5,
-            "created_at":"2021-11-30T11:05:00.000000Z",
-            "updated_at":"2021-11-30T11:05:08.000000Z",
-            "ads_provider":"ironsource",
-            "background":"#FFFFFF",
-            "background_type":"color",
-            "app_config_id":1,
-            "name":"step_3_screen",
-            "views":[
-               {
-                  "id":1,
-                  "created_at":"2021-11-30T11:24:04.000000Z",
-                  "updated_at":"2022-02-11T13:50:55.000000Z",
-                  "type":"textView",
-                  "background_type":"color",
-                  "background":"#FFFFFF",
-                  "text":"Mega Millions, Pick 3 and more from state-licensed retailers. Jackpocket players have won over $150 million in lottery prizes to date!",
-                  "screen_id":5,
-                  "name":"body_3",
-                  "views_data":[
-                     
-                  ]
-               }
-            ],
-            "advertisements":[
-               {
-                  "id":9,
-                  "created_at":"2021-11-30T11:08:47.000000Z",
-                  "updated_at":"2022-02-07T13:07:30.000000Z",
-                  "is_enabled":"false",
-                  "provider":"admob",
-                  "ad_id":"ca-app-pub-3940256099942544/2247696110",
-                  "type":"native",
-                  "screen_id":5,
-                  "name":"native_1"
-               },
-               {
-                  "id":9,
-                  "created_at":"2021-11-30T11:08:47.000000Z",
-                  "updated_at":"2022-02-07T13:07:30.000000Z",
-                  "is_enabled":"false",
-                  "provider":"admob",
-                  "ad_id":"ca-app-pub-3940256099942544/2247696110",
-                  "type":"native",
-                  "screen_id":5,
-                  "name":"native_2"
-               },
-               {
-                  "id":9,
-                  "created_at":"2021-11-30T11:08:47.000000Z",
-                  "updated_at":"2022-02-07T13:07:30.000000Z",
-                  "is_enabled":"true",
-                  "provider":"facebook",
-                  "ad_id":"66666666666666",
-                  "type":"native",
-                  "screen_id":5,
-                  "name":"native_1"
-               },
-               {
-                  "id":9,
-                  "created_at":"2021-11-30T11:08:47.000000Z",
-                  "updated_at":"2022-02-07T13:07:30.000000Z",
-                  "is_enabled":"true",
-                  "provider":"facebook",
-                  "ad_id":"ca-app-pub-3940256099942544/2247696110",
-                  "type":"native",
-                  "screen_id":5,
-                  "name":"native_2"
-               },
-               {
-                  "id":10,
-                  "created_at":"2021-11-30T11:08:47.000000Z",
-                  "updated_at":"2022-02-11T15:28:55.000000Z",
-                  "is_enabled":"true",
-                  "provider":"admob",
-                  "ad_id":"ca-app-pub-3940256099942544/1033173712",
-                  "type":"interstitial",
-                  "screen_id":5,
-                  "name":"interstitial_1"
-               },
-               {
-                  "id":10,
-                  "created_at":"2021-11-30T11:08:47.000000Z",
-                  "updated_at":"2022-02-11T15:28:55.000000Z",
-                  "is_enabled":"true",
-                  "provider":"admob",
-                  "ad_id":"ca-app-pub-3940256099942544/1033173712",
-                  "type":"interstitial",
-                  "screen_id":5,
-                  "name":"interstitial_2"
-               },
-               {
-                  "id":10,
-                  "created_at":"2021-11-30T11:08:47.000000Z",
-                  "updated_at":"2022-02-11T15:28:55.000000Z",
-                  "is_enabled":"true",
-                  "provider":"facebook",
-                  "ad_id":"ca-app-pub-3940256099942544/1033173712",
-                  "type":"interstitial",
-                  "screen_id":5,
-                  "name":"interstitial_1"
-               },
-               {
-                  "id":10,
-                  "created_at":"2021-11-30T11:08:47.000000Z",
-                  "updated_at":"2022-02-11T15:28:55.000000Z",
-                  "is_enabled":"true",
-                  "provider":"facebook",
-                  "ad_id":"ca-app-pub-3940256099942544/1033173712",
-                  "type":"interstitial",
-                  "screen_id":5,
-                  "name":"interstitial_2"
-               },
-               {
-                  "id":11,
-                  "created_at":"2021-11-30T11:08:50.000000Z",
-                  "updated_at":"2022-02-11T15:29:03.000000Z",
-                  "is_enabled":"true",
-                  "provider":"admob",
-                  "ad_id":"ca-app-pub-3940256099942544/6300978111",
-                  "type":"banner",
-                  "screen_id":5,
-                  "name":"banner_1"
-               },
-               {
-                  "id":11,
-                  "created_at":"2021-11-30T11:08:50.000000Z",
-                  "updated_at":"2022-02-11T15:29:03.000000Z",
-                  "is_enabled":"true",
-                  "provider":"ironsource",
-                  "ad_id":"banner_1",
-                  "type":"banner",
-                  "screen_id":5,
-                  "name":"banner_1"
-               },
-               {
-                  "id":5565,
-                  "created_at":"2021-11-30T10:08:45.000000Z",
-                  "updated_at":"2022-02-07T12:43:14.000000Z",
-                  "is_enabled":"true",
-                  "provider":"ironsource",
-                  "ad_id":"interstitial_1",
-                  "type":"interstitial",
-                  "screen_id":3,
-                  "name":"interstitial_1"
-               }
-            ]
-         },
-         {
-            "id":5,
-            "created_at":"2021-11-30T11:05:00.000000Z",
-            "updated_at":"2021-11-30T11:05:08.000000Z",
-            "ads_provider":"ironsource",
-            "background":"#FFFFFF",
-            "background_type":"color",
-            "app_config_id":1,
-            "name":"step_4_screen",
-            "views":[
-               {
-                  "id":1,
-                  "created_at":"2021-11-30T11:24:04.000000Z",
-                  "updated_at":"2022-02-11T13:50:55.000000Z",
-                  "type":"textView",
-                  "background_type":"color",
-                  "background":"#FFFFFF",
-                  "text":"Say goodbye to those long Powerball mania lines and say hello to Jackpocket!” – as seen on Good Morning America.",
-                  "screen_id":5,
-                  "name":"body_4",
-                  "views_data":[
-                     
-                  ]
-               }
-            ],
-            "advertisements":[
-               {
-                  "id":9,
-                  "created_at":"2021-11-30T11:08:47.000000Z",
-                  "updated_at":"2022-02-07T13:07:30.000000Z",
-                  "is_enabled":"false",
-                  "provider":"admob",
-                  "ad_id":"ca-app-pub-3940256099942544/2247696110",
-                  "type":"native",
-                  "screen_id":5,
-                  "name":"native_1"
-               },
-               {
-                  "id":9,
-                  "created_at":"2021-11-30T11:08:47.000000Z",
-                  "updated_at":"2022-02-07T13:07:30.000000Z",
-                  "is_enabled":"false",
-                  "provider":"admob",
-                  "ad_id":"ca-app-pub-3940256099942544/2247696110",
-                  "type":"native",
-                  "screen_id":5,
-                  "name":"native_2"
-               },
-               {
-                  "id":9,
-                  "created_at":"2021-11-30T11:08:47.000000Z",
-                  "updated_at":"2022-02-07T13:07:30.000000Z",
-                  "is_enabled":"true",
-                  "provider":"facebook",
-                  "ad_id":"66666666666666",
-                  "type":"native",
-                  "screen_id":5,
-                  "name":"native_1"
-               },
-               {
-                  "id":9,
-                  "created_at":"2021-11-30T11:08:47.000000Z",
-                  "updated_at":"2022-02-07T13:07:30.000000Z",
-                  "is_enabled":"true",
-                  "provider":"facebook",
-                  "ad_id":"ca-app-pub-3940256099942544/2247696110",
-                  "type":"native",
-                  "screen_id":5,
-                  "name":"native_2"
-               },
-               {
-                  "id":10,
-                  "created_at":"2021-11-30T11:08:47.000000Z",
-                  "updated_at":"2022-02-11T15:28:55.000000Z",
-                  "is_enabled":"true",
-                  "provider":"admob",
-                  "ad_id":"ca-app-pub-3940256099942544/1033173712",
-                  "type":"interstitial",
-                  "screen_id":5,
-                  "name":"interstitial_1"
-               },
-               {
-                  "id":10,
-                  "created_at":"2021-11-30T11:08:47.000000Z",
-                  "updated_at":"2022-02-11T15:28:55.000000Z",
-                  "is_enabled":"true",
-                  "provider":"admob",
-                  "ad_id":"ca-app-pub-3940256099942544/1033173712",
-                  "type":"interstitial",
-                  "screen_id":5,
-                  "name":"interstitial_2"
-               },
-               {
-                  "id":10,
-                  "created_at":"2021-11-30T11:08:47.000000Z",
-                  "updated_at":"2022-02-11T15:28:55.000000Z",
-                  "is_enabled":"true",
-                  "provider":"facebook",
-                  "ad_id":"ca-app-pub-3940256099942544/1033173712",
-                  "type":"interstitial",
-                  "screen_id":5,
-                  "name":"interstitial_1"
-               },
-               {
-                  "id":10,
-                  "created_at":"2021-11-30T11:08:47.000000Z",
-                  "updated_at":"2022-02-11T15:28:55.000000Z",
-                  "is_enabled":"true",
-                  "provider":"facebook",
-                  "ad_id":"ca-app-pub-3940256099942544/1033173712",
-                  "type":"interstitial",
-                  "screen_id":5,
-                  "name":"interstitial_2"
-               },
-               {
-                  "id":11,
-                  "created_at":"2021-11-30T11:08:50.000000Z",
-                  "updated_at":"2022-02-11T15:29:03.000000Z",
-                  "is_enabled":"true",
-                  "provider":"admob",
-                  "ad_id":"ca-app-pub-3940256099942544/6300978111",
-                  "type":"banner",
-                  "screen_id":5,
-                  "name":"banner_1"
-               },
-               {
-                  "id":11,
-                  "created_at":"2021-11-30T11:08:50.000000Z",
-                  "updated_at":"2022-02-11T15:29:03.000000Z",
-                  "is_enabled":"true",
-                  "provider":"ironsource",
-                  "ad_id":"banner_1",
-                  "type":"banner",
-                  "screen_id":5,
-                  "name":"banner_1"
-               },
-               {
-                  "id":5565,
-                  "created_at":"2021-11-30T10:08:45.000000Z",
-                  "updated_at":"2022-02-07T12:43:14.000000Z",
-                  "is_enabled":"true",
-                  "provider":"ironsource",
-                  "ad_id":"interstitial_1",
-                  "type":"interstitial",
-                  "screen_id":3,
-                  "name":"interstitial_1"
-               }
-            ]
-         },
-         {
-            "id":5,
-            "created_at":"2021-11-30T11:05:00.000000Z",
-            "updated_at":"2021-11-30T11:05:08.000000Z",
-            "ads_provider":"ironsource",
-            "background":"#FFFFFF",
-            "background_type":"color",
-            "app_config_id":1,
-            "name":"step_5_screen",
-            "views":[
-               {
-                  "id":1,
-                  "created_at":"2021-11-30T11:24:04.000000Z",
-                  "updated_at":"2022-02-11T13:50:55.000000Z",
-                  "type":"textView",
-                  "background_type":"color",
-                  "background":"#FFFFFF",
-                  "text":" Play Mega Millions, Powerball, and more official lottery games in your state",
-                  "screen_id":5,
-                  "name":"body_5",
-                  "views_data":[
-                     
-                  ]
-               }
-            ],
-            "advertisements":[
-               {
-                  "id":9,
-                  "created_at":"2021-11-30T11:08:47.000000Z",
-                  "updated_at":"2022-02-07T13:07:30.000000Z",
-                  "is_enabled":"false",
-                  "provider":"admob",
-                  "ad_id":"ca-app-pub-3940256099942544/2247696110",
-                  "type":"native",
-                  "screen_id":5,
-                  "name":"native_1"
-               },
-               {
-                  "id":9,
-                  "created_at":"2021-11-30T11:08:47.000000Z",
-                  "updated_at":"2022-02-07T13:07:30.000000Z",
-                  "is_enabled":"false",
-                  "provider":"admob",
-                  "ad_id":"ca-app-pub-3940256099942544/2247696110",
-                  "type":"native",
-                  "screen_id":5,
-                  "name":"native_2"
-               },
-               {
-                  "id":9,
-                  "created_at":"2021-11-30T11:08:47.000000Z",
-                  "updated_at":"2022-02-07T13:07:30.000000Z",
-                  "is_enabled":"true",
-                  "provider":"facebook",
-                  "ad_id":"66666666666666",
-                  "type":"native",
-                  "screen_id":5,
-                  "name":"native_1"
-               },
-               {
-                  "id":9,
-                  "created_at":"2021-11-30T11:08:47.000000Z",
-                  "updated_at":"2022-02-07T13:07:30.000000Z",
-                  "is_enabled":"true",
-                  "provider":"facebook",
-                  "ad_id":"ca-app-pub-3940256099942544/2247696110",
-                  "type":"native",
-                  "screen_id":5,
-                  "name":"native_2"
-               },
-               {
-                  "id":10,
-                  "created_at":"2021-11-30T11:08:47.000000Z",
-                  "updated_at":"2022-02-11T15:28:55.000000Z",
-                  "is_enabled":"true",
-                  "provider":"admob",
-                  "ad_id":"ca-app-pub-3940256099942544/1033173712",
-                  "type":"interstitial",
-                  "screen_id":5,
-                  "name":"interstitial_1"
-               },
-               {
-                  "id":10,
-                  "created_at":"2021-11-30T11:08:47.000000Z",
-                  "updated_at":"2022-02-11T15:28:55.000000Z",
-                  "is_enabled":"true",
-                  "provider":"admob",
-                  "ad_id":"ca-app-pub-3940256099942544/1033173712",
-                  "type":"interstitial",
-                  "screen_id":5,
-                  "name":"interstitial_2"
-               },
-               {
-                  "id":10,
-                  "created_at":"2021-11-30T11:08:47.000000Z",
-                  "updated_at":"2022-02-11T15:28:55.000000Z",
-                  "is_enabled":"true",
-                  "provider":"facebook",
-                  "ad_id":"ca-app-pub-3940256099942544/1033173712",
-                  "type":"interstitial",
-                  "screen_id":5,
-                  "name":"interstitial_1"
-               },
-               {
-                  "id":10,
-                  "created_at":"2021-11-30T11:08:47.000000Z",
-                  "updated_at":"2022-02-11T15:28:55.000000Z",
-                  "is_enabled":"true",
-                  "provider":"facebook",
-                  "ad_id":"ca-app-pub-3940256099942544/1033173712",
-                  "type":"interstitial",
-                  "screen_id":5,
-                  "name":"interstitial_2"
-               },
-               {
-                  "id":11,
-                  "created_at":"2021-11-30T11:08:50.000000Z",
-                  "updated_at":"2022-02-11T15:29:03.000000Z",
-                  "is_enabled":"true",
-                  "provider":"admob",
-                  "ad_id":"ca-app-pub-3940256099942544/6300978111",
-                  "type":"banner",
-                  "screen_id":5,
-                  "name":"banner_1"
-               },
-               {
-                  "id":11,
-                  "created_at":"2021-11-30T11:08:50.000000Z",
-                  "updated_at":"2022-02-11T15:29:03.000000Z",
-                  "is_enabled":"true",
-                  "provider":"ironsource",
-                  "ad_id":"banner_1",
-                  "type":"banner",
-                  "screen_id":5,
-                  "name":"banner_1"
-               },
-               {
-                  "id":5565,
-                  "created_at":"2021-11-30T10:08:45.000000Z",
-                  "updated_at":"2022-02-07T12:43:14.000000Z",
-                  "is_enabled":"true",
-                  "provider":"ironsource",
-                  "ad_id":"interstitial_1",
-                  "type":"interstitial",
-                  "screen_id":3,
-                  "name":"interstitial_1"
-               }
-            ]
-         },
-         {
-            "id":5,
-            "created_at":"2021-11-30T11:05:00.000000Z",
-            "updated_at":"2021-11-30T11:05:08.000000Z",
-            "ads_provider":"ironsource",
-            "background":"#FFFFFF",
-            "background_type":"color",
-            "app_config_id":1,
-            "name":"step_6_screen",
-            "views":[
-               {
-                  "id":1,
-                  "created_at":"2021-11-30T11:24:04.000000Z",
-                  "updated_at":"2022-02-11T13:50:55.000000Z",
-                  "type":"textView",
-                  "background_type":"color",
-                  "background":"#FFFFFF",
-                  "text":"Get scratch tickets mailed to your door. Available in TX and CO with more scratch-off states coming soon!",
-                  "screen_id":5,
-                  "name":"body_6",
-                  "views_data":[
-                     
-                  ]
-               }
-            ],
-            "advertisements":[
-               {
-                  "id":9,
-                  "created_at":"2021-11-30T11:08:47.000000Z",
-                  "updated_at":"2022-02-07T13:07:30.000000Z",
-                  "is_enabled":"false",
-                  "provider":"admob",
-                  "ad_id":"ca-app-pub-3940256099942544/2247696110",
-                  "type":"native",
-                  "screen_id":5,
-                  "name":"native_1"
-               },
-               {
-                  "id":9,
-                  "created_at":"2021-11-30T11:08:47.000000Z",
-                  "updated_at":"2022-02-07T13:07:30.000000Z",
-                  "is_enabled":"false",
-                  "provider":"admob",
-                  "ad_id":"ca-app-pub-3940256099942544/2247696110",
-                  "type":"native",
-                  "screen_id":5,
-                  "name":"native_2"
-               },
-               {
-                  "id":9,
-                  "created_at":"2021-11-30T11:08:47.000000Z",
-                  "updated_at":"2022-02-07T13:07:30.000000Z",
-                  "is_enabled":"true",
-                  "provider":"facebook",
-                  "ad_id":"66666666666666",
-                  "type":"native",
-                  "screen_id":5,
-                  "name":"native_1"
-               },
-               {
-                  "id":9,
-                  "created_at":"2021-11-30T11:08:47.000000Z",
-                  "updated_at":"2022-02-07T13:07:30.000000Z",
-                  "is_enabled":"true",
-                  "provider":"facebook",
-                  "ad_id":"ca-app-pub-3940256099942544/2247696110",
-                  "type":"native",
-                  "screen_id":5,
-                  "name":"native_2"
-               },
-               {
-                  "id":10,
-                  "created_at":"2021-11-30T11:08:47.000000Z",
-                  "updated_at":"2022-02-11T15:28:55.000000Z",
-                  "is_enabled":"true",
-                  "provider":"admob",
-                  "ad_id":"ca-app-pub-3940256099942544/1033173712",
-                  "type":"interstitial",
-                  "screen_id":5,
-                  "name":"interstitial_1"
-               },
-               {
-                  "id":10,
-                  "created_at":"2021-11-30T11:08:47.000000Z",
-                  "updated_at":"2022-02-11T15:28:55.000000Z",
-                  "is_enabled":"true",
-                  "provider":"admob",
-                  "ad_id":"ca-app-pub-3940256099942544/1033173712",
-                  "type":"interstitial",
-                  "screen_id":5,
-                  "name":"interstitial_2"
-               },
-               {
-                  "id":10,
-                  "created_at":"2021-11-30T11:08:47.000000Z",
-                  "updated_at":"2022-02-11T15:28:55.000000Z",
-                  "is_enabled":"true",
-                  "provider":"facebook",
-                  "ad_id":"ca-app-pub-3940256099942544/1033173712",
-                  "type":"interstitial",
-                  "screen_id":5,
-                  "name":"interstitial_1"
-               },
-               {
-                  "id":10,
-                  "created_at":"2021-11-30T11:08:47.000000Z",
-                  "updated_at":"2022-02-11T15:28:55.000000Z",
-                  "is_enabled":"true",
-                  "provider":"facebook",
-                  "ad_id":"ca-app-pub-3940256099942544/1033173712",
-                  "type":"interstitial",
-                  "screen_id":5,
-                  "name":"interstitial_2"
-               },
-               {
-                  "id":11,
-                  "created_at":"2021-11-30T11:08:50.000000Z",
-                  "updated_at":"2022-02-11T15:29:03.000000Z",
-                  "is_enabled":"true",
-                  "provider":"admob",
-                  "ad_id":"ca-app-pub-3940256099942544/6300978111",
-                  "type":"banner",
-                  "screen_id":5,
-                  "name":"banner_1"
-               },
-               {
-                  "id":11,
-                  "created_at":"2021-11-30T11:08:50.000000Z",
-                  "updated_at":"2022-02-11T15:29:03.000000Z",
-                  "is_enabled":"true",
-                  "provider":"ironsource",
-                  "ad_id":"banner_1",
-                  "type":"banner",
-                  "screen_id":5,
-                  "name":"banner_1"
-               },
-               {
-                  "id":5565,
-                  "created_at":"2021-11-30T10:08:45.000000Z",
-                  "updated_at":"2022-02-07T12:43:14.000000Z",
-                  "is_enabled":"true",
-                  "provider":"ironsource",
-                  "ad_id":"interstitial_1",
-                  "type":"interstitial",
-                  "screen_id":3,
-                  "name":"interstitial_1"
-               }
-            ]
-         },
-         {
-            "id":11,
-            "created_at":"2021-11-30T12:07:40.000000Z",
-            "updated_at":"2021-11-30T12:08:06.000000Z",
-            "ads_provider":"admob",
-            "background":"#FFFFFF",
-            "background_type":"color",
-            "app_config_id":1,
-            "name":"data_list_screen",
-            "views":[
-               {
-                  "id":7,
-                  "created_at":"2021-11-30T12:10:48.000000Z",
-                  "updated_at":"2021-11-30T12:29:02.000000Z",
-                  "type":"textView",
-                  "background_type":"color",
-                  "background":"#FFFFFF",
-                  "text":"Linktree is the launchpad to your latest video, article, recipe, tour, store, website, social post - everywhere you are online.",
-                  "screen_id":11,
-                  "name":"title_1",
-                  "views_data":[
-                     
-                  ]
-               },
-               {
-                  "id":8,
-                  "created_at":"2021-11-30T12:10:49.000000Z",
-                  "updated_at":"2021-11-30T12:29:15.000000Z",
-                  "type":"textView",
-                  "background_type":"color",
-                  "background":"#FFFFFF",
-                  "text":"**How to test an iphone inside sim card mobile",
-                  "screen_id":11,
-                  "name":"title_2",
-                  "views_data":[
-                     
-                  ]
-               },
-               {
-                  "id":9,
-                  "created_at":"2021-11-30T12:10:52.000000Z",
-                  "updated_at":"2021-11-30T12:29:21.000000Z",
-                  "type":"textView",
-                  "background_type":"color",
-                  "background":"#FFFFFF",
-                  "text":"***How to test an iphone inside sim card mobile",
-                  "screen_id":11,
-                  "name":"title_3",
-                  "views_data":[
-                     
-                  ]
-               },
-               {
-                  "id":10,
-                  "created_at":"2021-11-30T12:10:56.000000Z",
-                  "updated_at":"2021-11-30T12:29:28.000000Z",
-                  "type":"textView",
-                  "background_type":"color",
-                  "background":"#FFFFFF",
-                  "text":"***How to test an iphone inside sim card mobile",
-                  "screen_id":11,
-                  "name":"title_4",
-                  "views_data":[
-                     
-                  ]
-               },
-               {
-                  "id":11,
-                  "created_at":"2021-11-30T12:10:57.000000Z",
-                  "updated_at":"2021-11-30T12:29:35.000000Z",
-                  "type":"textView",
-                  "background_type":"color",
-                  "background":"#FFFFFF",
-                  "text":"***to test an iphone inside sim card mobile",
-                  "screen_id":11,
-                  "name":"title_5",
-                  "views_data":[
-                     
-                  ]
-               },
-               {
-                  "id":12,
-                  "created_at":"2021-11-30T12:11:07.000000Z",
-                  "updated_at":"2021-11-30T12:29:40.000000Z",
-                  "type":"textView",
-                  "background_type":"color",
-                  "background":"#FFFFFF",
-                  "text":"From tips for your content, to donations for your projects, let your fans & followers support you in monetizing your passions.",
-                  "screen_id":11,
-                  "name":"title_6",
-                  "views_data":[
-                     
-                  ]
-               },
-               {
-                  "id":124,
-                  "created_at":"2021-12-01T14:20:10.000000Z",
-                  "updated_at":"2021-12-09T14:23:43.000000Z",
-                  "type":"button",
-                  "background_type":"color",
-                  "background":"#FFFFFF",
-                  "text":"Get started",
-                  "screen_id":11,
-                  "name":"button_get_started",
-                  "views_data":[
-                     {
-                        "id":2,
-                        "created_at":"2021-12-01T14:20:33.000000Z",
-                        "updated_at":"2021-12-01T14:39:13.000000Z",
-                        "key":"text",
-                        "value":"http://cwell.site/",
-                        "view_id":124
-                     }
-                  ]
-               }
-            ],
-            "advertisements":[
-               {
-                  "id":27,
-                  "created_at":"2021-11-30T12:32:38.000000Z",
-                  "updated_at":"2022-02-07T14:20:37.000000Z",
-                  "is_enabled":"true",
-                  "provider":"applovin",
-                  "ad_id":"a236db6b59c5061a",
-                  "type":"native",
-                  "screen_id":11,
-                  "name":"native_1"
-               }
-            ]
-         },
-         {
-            "id":12,
-            "created_at":"2021-11-30T13:00:13.000000Z",
-            "updated_at":"2021-11-30T13:00:19.000000Z",
-            "ads_provider":"admob",
-            "background":"#FFFFFF",
-            "background_type":"color",
-            "app_config_id":1,
-            "name":"article_1_screen",
-            "views":[
-               {
-                  "id":13,
-                  "created_at":"2021-11-30T13:11:00.000000Z",
-                  "updated_at":"2021-11-30T13:11:56.000000Z",
-                  "type":"textView",
-                  "background_type":"color",
-                  "background":"#FFFFFF",
-                  "text":"Creating a Linktree takes seconds. Use our simple drag-and-drop editor to effortlessly manage your content.",
-                  "screen_id":12,
-                  "name":"body_1",
-                  "views_data":[
-                     
-                  ]
-               },
-               {
-                  "id":14,
-                  "created_at":"2021-11-30T13:11:00.000000Z",
-                  "updated_at":"2021-11-30T13:15:13.000000Z",
-                  "type":"textView",
-                  "background_type":"color",
-                  "background":"#FFFFFF",
-                  "text":"Privacy is non-negotiable. Linktree is committed to protecting the privacy of you and your visitors.",
-                  "screen_id":12,
-                  "name":"body_2",
-                  "views_data":[
-                     
-                  ]
-               },
-               {
-                  "id":15,
-                  "created_at":"2021-11-30T13:11:00.000000Z",
-                  "updated_at":"2021-11-30T13:15:46.000000Z",
-                  "type":"textView",
-                  "background_type":"color",
-                  "background":"#FFFFFF",
-                  "text":"Make your Linktree pop. Embody your brand through custom colors, fonts and images.",
-                  "screen_id":12,
-                  "name":"title",
-                  "views_data":[
-                     
-                  ]
-               }
-            ],
-            "advertisements":[
-               {
-                  "id":28,
-                  "created_at":"2021-11-30T13:21:17.000000Z",
-                  "updated_at":"2021-12-03T20:54:17.000000Z",
-                  "is_enabled":"true",
-                  "provider":"admob",
-                  "ad_id":"ca-app-pub-",
-                  "type":"native",
-                  "screen_id":12,
-                  "name":"native_1"
-               }
-            ]
-         },
-         {
-            "id":13,
-            "created_at":"2021-11-30T13:00:13.000000Z",
-            "updated_at":"2021-11-30T13:05:59.000000Z",
-            "ads_provider":"admob",
-            "background":"#FFFFFF",
-            "background_type":"color",
-            "app_config_id":1,
-            "name":"article_2_screen",
-            "views":[
-               {
-                  "id":16,
-                  "created_at":"2021-11-30T13:36:11.000000Z",
-                  "updated_at":"2021-11-30T13:36:29.000000Z",
-                  "type":"textView",
-                  "background_type":"color",
-                  "background":"#FFFFFF",
-                  "text":"*** Nothing to see here..",
-                  "screen_id":13,
-                  "name":"body_1",
-                  "views_data":[
-                     
-                  ]
-               },
-               {
-                  "id":17,
-                  "created_at":"2021-11-30T13:36:11.000000Z",
-                  "updated_at":"2021-11-30T13:36:44.000000Z",
-                  "type":"textView",
-                  "background_type":"color",
-                  "background":"#FFFFFF",
-                  "text":"** Nothing to see here..",
-                  "screen_id":13,
-                  "name":"body_2",
-                  "views_data":[
-                     
-                  ]
-               },
-               {
-                  "id":18,
-                  "created_at":"2021-11-30T13:36:11.000000Z",
-                  "updated_at":"2021-11-30T13:37:00.000000Z",
-                  "type":"textView",
-                  "background_type":"color",
-                  "background":"#FFFFFF",
-                  "text":"Nothing *** to see here..",
-                  "screen_id":13,
-                  "name":"title",
-                  "views_data":[
-                     
-                  ]
-               }
-            ],
-            "advertisements":[
-               {
-                  "id":29,
-                  "created_at":"2021-11-30T13:37:12.000000Z",
-                  "updated_at":"2022-02-04T14:30:05.000000Z",
-                  "is_enabled":"true",
-                  "provider":"admob",
-                  "ad_id":"ca-app-pub-3940256099942544/2247696110",
-                  "type":"native",
-                  "screen_id":13,
-                  "name":"native_1"
-               }
-            ]
-         },
-         {
-            "id":14,
-            "created_at":"2021-11-30T13:00:13.000000Z",
-            "updated_at":"2021-11-30T13:06:39.000000Z",
-            "ads_provider":"admob",
-            "background":"#FFFFFF",
-            "background_type":"color",
-            "app_config_id":1,
-            "name":"article_3_screen",
-            "views":[
-               {
-                  "id":19,
-                  "created_at":"2021-11-30T13:37:32.000000Z",
-                  "updated_at":"2021-11-30T13:38:25.000000Z",
-                  "type":"textView",
-                  "background_type":"color",
-                  "background":"#FFFFFF",
-                  "text":"******",
-                  "screen_id":14,
-                  "name":"title",
-                  "views_data":[
-                     
-                  ]
-               },
-               {
-                  "id":20,
-                  "created_at":"2021-11-30T13:37:32.000000Z",
-                  "updated_at":"2021-11-30T13:38:37.000000Z",
-                  "type":"textView",
-                  "background_type":"color",
-                  "background":"#FFFFFF",
-                  "text":"*******",
-                  "screen_id":14,
-                  "name":"body_1",
-                  "views_data":[
-                     
-                  ]
-               },
-               {
-                  "id":21,
-                  "created_at":"2021-11-30T13:37:33.000000Z",
-                  "updated_at":"2021-11-30T13:38:52.000000Z",
-                  "type":"textView",
-                  "background_type":"color",
-                  "background":"#FFFFFF",
-                  "text":"*******",
-                  "screen_id":14,
-                  "name":"body_2",
-                  "views_data":[
-                     
-                  ]
-               }
-            ],
-            "advertisements":[
-               {
-                  "id":30,
-                  "created_at":"2021-11-30T13:37:37.000000Z",
-                  "updated_at":"2022-02-04T14:30:10.000000Z",
-                  "is_enabled":"true",
-                  "provider":"admob",
-                  "ad_id":"ca-app-pub-ca-app-pub-3940256099942544/2247696110",
-                  "type":"native",
-                  "screen_id":14,
-                  "name":"native_1"
-               }
-            ]
-         },
-         {
-            "id":15,
-            "created_at":"2021-11-30T13:00:13.000000Z",
-            "updated_at":"2021-11-30T13:06:50.000000Z",
-            "ads_provider":"admob",
-            "background":"#FFFFFF",
-            "background_type":"color",
-            "app_config_id":1,
-            "name":"article_4_screen",
-            "views":[
-               {
-                  "id":23,
-                  "created_at":"2021-11-30T13:39:01.000000Z",
-                  "updated_at":"2021-11-30T13:39:20.000000Z",
-                  "type":"textView",
-                  "background_type":"color",
-                  "background":"#FFFFFF",
-                  "text":"****",
-                  "screen_id":15,
-                  "name":"title",
-                  "views_data":[
-                     
-                  ]
-               },
-               {
-                  "id":24,
-                  "created_at":"2021-11-30T13:39:01.000000Z",
-                  "updated_at":"2021-11-30T13:39:30.000000Z",
-                  "type":"textView",
-                  "background_type":"color",
-                  "background":"#FFFFFF",
-                  "text":"Nothing to see here..",
-                  "screen_id":15,
-                  "name":"body_1",
-                  "views_data":[
-                     
-                  ]
-               },
-               {
-                  "id":25,
-                  "created_at":"2021-11-30T13:39:02.000000Z",
-                  "updated_at":"2021-11-30T13:39:40.000000Z",
-                  "type":"textView",
-                  "background_type":"color",
-                  "background":"#FFFFFF",
-                  "text":"Nothing to see here..",
-                  "screen_id":15,
-                  "name":"body_2",
-                  "views_data":[
-                     
-                  ]
-               }
-            ],
-            "advertisements":[
-               {
-                  "id":31,
-                  "created_at":"2021-11-30T13:39:47.000000Z",
-                  "updated_at":"2021-12-03T20:54:41.000000Z",
-                  "is_enabled":"true",
-                  "provider":"admob",
-                  "ad_id":"ca-app-pub-",
-                  "type":"native",
-                  "screen_id":15,
-                  "name":"native_1"
-               }
-            ]
-         },
-         {
-            "id":16,
-            "created_at":"2021-11-30T13:00:13.000000Z",
-            "updated_at":"2021-11-30T13:06:57.000000Z",
-            "ads_provider":"admob",
-            "background":"#FFFFFF",
-            "background_type":"color",
-            "app_config_id":1,
-            "name":"article_5_screen",
-            "views":[
-               {
-                  "id":27,
-                  "created_at":"2021-11-30T13:40:10.000000Z",
-                  "updated_at":"2021-11-30T13:40:25.000000Z",
-                  "type":"textView",
-                  "background_type":"color",
-                  "background":"#FFFFFF",
-                  "text":"Nothing to see here..",
-                  "screen_id":16,
-                  "name":"title",
-                  "views_data":[
-                     
-                  ]
-               },
-               {
-                  "id":28,
-                  "created_at":"2021-11-30T13:40:10.000000Z",
-                  "updated_at":"2021-11-30T13:40:38.000000Z",
-                  "type":"textView",
-                  "background_type":"color",
-                  "background":"#FFFFFF",
-                  "text":"Nothing to see here..",
-                  "screen_id":16,
-                  "name":"body_1",
-                  "views_data":[
-                     
-                  ]
-               },
-               {
-                  "id":29,
-                  "created_at":"2021-11-30T13:40:10.000000Z",
-                  "updated_at":"2021-11-30T13:40:49.000000Z",
-                  "type":"textView",
-                  "background_type":"color",
-                  "background":"#FFFFFF",
-                  "text":"Nothing to see here..",
-                  "screen_id":16,
-                  "name":"body_2",
-                  "views_data":[
-                     
-                  ]
-               }
-            ],
-            "advertisements":[
-               {
-                  "id":32,
-                  "created_at":"2021-11-30T13:40:53.000000Z",
-                  "updated_at":"2022-02-04T14:30:17.000000Z",
-                  "is_enabled":"true",
-                  "provider":"admob",
-                  "ad_id":"ca-app-pub-3940256099942544/2247696110",
-                  "type":"native",
-                  "screen_id":16,
-                  "name":"native_1"
-               }
-            ]
-         },
-         {
-            "id":17,
-            "created_at":"2021-11-30T13:07:14.000000Z",
-            "updated_at":"2021-11-30T13:07:21.000000Z",
-            "ads_provider":"admob",
-            "background":"#FFFFFF",
-            "background_type":"color",
-            "app_config_id":1,
-            "name":"article_6_screen",
-            "views":[
-               {
-                  "id":30,
-                  "created_at":"2021-11-30T13:41:09.000000Z",
-                  "updated_at":"2021-11-30T13:41:21.000000Z",
-                  "type":"textView",
-                  "background_type":"color",
-                  "background":"#FFFFFF",
-                  "text":"Nothing to see here..",
-                  "screen_id":17,
-                  "name":"title",
-                  "views_data":[
-                     
-                  ]
-               },
-               {
-                  "id":31,
-                  "created_at":"2021-11-30T13:41:10.000000Z",
-                  "updated_at":"2021-11-30T13:41:42.000000Z",
-                  "type":"textView",
-                  "background_type":"color",
-                  "background":"#FFFFFF",
-                  "text":"Nothing to see here..",
-                  "screen_id":17,
-                  "name":"body_1",
-                  "views_data":[
-                     
-                  ]
-               },
-               {
-                  "id":32,
-                  "created_at":"2021-11-30T13:41:10.000000Z",
-                  "updated_at":"2021-11-30T13:41:52.000000Z",
-                  "type":"textView",
-                  "background_type":"color",
-                  "background":"#FFFFFF",
-                  "text":"Nothing to see here..",
-                  "screen_id":17,
-                  "name":"body_2",
-                  "views_data":[
-                     
-                  ]
-               }
-            ],
-            "advertisements":[
-               {
-                  "id":33,
-                  "created_at":"2021-11-30T13:41:14.000000Z",
-                  "updated_at":"2022-02-04T14:30:24.000000Z",
-                  "is_enabled":"true",
-                  "provider":"admob",
-                  "ad_id":"ca-app-pub-3940256099942544/2247696110",
-                  "type":"native",
-                  "screen_id":17,
-                  "name":"native_1"
-               }
-            ]
-         },
-         {
-            "id":596,
-            "created_at":"2021-12-09T13:13:21.000000Z",
-            "updated_at":"2021-12-09T13:13:32.000000Z",
-            "ads_provider":"admob",
-            "background":"#FFFFFF",
-            "background_type":"color",
-            "app_config_id":1,
-            "name":"screen_verification",
-            "views":[
-               {
-                  "id":1087,
-                  "created_at":"2021-12-09T13:13:38.000000Z",
-                  "updated_at":"2021-12-09T14:03:08.000000Z",
-                  "type":"button",
-                  "background_type":"color",
-                  "background":"#FFFFFF",
-                  "text":"Get Verification Code",
-                  "screen_id":596,
-                  "name":"button_get_verification_code",
-                  "views_data":[
-                     {
-                        "id":34,
-                        "created_at":"2021-12-09T13:16:39.000000Z",
-                        "updated_at":"2021-12-09T13:16:59.000000Z",
-                        "key":"link",
-                        "value":"https://app.marquevoiture.com/",
-                        "view_id":1087
-                     }
-                  ]
-               },
-               {
-                  "id":1088,
-                  "created_at":"2021-12-09T13:13:39.000000Z",
-                  "updated_at":"2021-12-09T14:03:14.000000Z",
-                  "type":"button",
-                  "background_type":"color",
-                  "background":"#FFFFFF",
-                  "text":"Install",
-                  "screen_id":596,
-                  "name":"button_install",
-                  "views_data":[
-                     {
-                        "id":35,
-                        "created_at":"2021-12-09T14:04:11.000000Z",
-                        "updated_at":"2021-12-09T14:04:26.000000Z",
-                        "key":"link",
-                        "value":"https://app.marquevoiture.com/",
-                        "view_id":1088
-                     }
-                  ]
-               }
-            ],
-            "advertisements":[
-               
-            ]
-         }
-      ]
-   }
+          }
+        ],
+        "advertisements": []
+      }
+    ]
+  }
 }
