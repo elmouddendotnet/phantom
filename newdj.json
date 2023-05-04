@@ -12,6 +12,12 @@
       "native": "IMG_16_9_APP_INSTALL#465986095404427_474850511184652",
       "interstitial": "IMG_16_9_APP_INSTALL#465986095404427_474869491182754"
     },
+    "Applovin": {
+      "activated": false,
+      "banner": "YOUR APPLOVIN BANNER",
+      "native": "YOUR APPLOVIN NATIVE",
+      "interstitial":"YOUR APPLOVIN INTERSTITIAL"
+    },
     "ironSource": {
       "activated": false,
       "app_key": "85460dcd"
